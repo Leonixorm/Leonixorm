@@ -1,0 +1,122 @@
+Finca;Cuartel;Has;Variedad;Kg Uva;Kg Pasa;Fecha Inicio Cosecha estimada;Dia referencial;Mes Referencial;Fecha estimada de Levantado;Semana;Semana Lev;Estado;Modo Cos.;Kg Real;Pasa Estimación;Sep.
+Puente Alto;1;5,13;Selma;101694,6;25423,65;14/1/2026;miércoles;enero;21/1/2026;3;4;Terminado;Convencional;;;Propios
+Puente Alto;2;5,13;Flame;131657;32914,25;26/1/2026;lunes;enero;2/2/2026;5;6;;Convencional;;;Propios
+Puente Alto;3;5,11;Flame;165984;41496;2/2/2026;lunes;febrero;4/3/2026;6;10;;Convencional;;;Propios
+Puente Alto;4;4,44;Flame;144144;36036;23/2/2026;lunes;febrero;25/3/2026;9;13;;Convencional;;;Propios
+Puente Alto;5;2,32;Arizul;50337;12584,25;2/3/2026;lunes;marzo;1/4/2026;10;14;;Convencional;;;Propios
+Puente Alto;6;3,5;Arizul;69457,5;17364,375;2/3/2026;lunes;marzo;1/4/2026;10;14;;Convencional;;;Propios
+Puente Alto;7;1,15;Selma;26880;6720;14/1/2026;miércoles;enero;21/1/2026;3;4;Terminado;Convencional;;;Propios
+Camino Truncado;2;4,08;Flame;100000;25000;2/2/2026;lunes;febrero;4/3/2026;6;10;;Convencional;;;Propios
+Camino Truncado;4;3;Flame;108707,2;27176,8;2/2/2026;lunes;febrero;4/3/2026;6;10;;Convencional;;;Propios
+Camino Truncado;5;4,21;Flame;142697,2;35674,3;6/2/2026;viernes;febrero;8/3/2026;6;11;;Convencional;;;Propios
+Camino Truncado;8;2,4;Arizul;35265,6;8816,4;2/3/2026;lunes;marzo;1/4/2026;10;14;;Convencional;;;Propios
+Camino Truncado;9;2,7;Sultanina;42005,6;10501,4;12/1/2026;lunes;enero;19/1/2026;3;4;;Convencional;;;Propios
+Camino Truncado;10;1,9;Fiesta;85500;21375;19/1/2026;lunes;enero;26/1/2026;4;5;;Convencional;;;Propios
+Camino Truncado;11;2,58;Fiesta;87444,8;21861,2;19/1/2026;lunes;enero;26/1/2026;4;5;Terminado;Convencional;;;Propios
+Camino Truncado;12;2,54;Arizul;109075,2;27268,8;2/3/2026;lunes;marzo;1/4/2026;10;14;;Convencional;;;Propios
+Camino Truncado;13;1,73;Arizul;78408;19602;2/3/2026;lunes;marzo;1/4/2026;10;14;;Convencional;;;Propios
+Camino Truncado;14;2,99;Superior;101630,4;25407,6;12/1/2026;lunes;enero;19/1/2026;3;4;;Convencional;;;Propios
+Camino Truncado;15;3,14;Arizul;130060;32515;9/3/2026;lunes;marzo;8/4/2026;11;15;;Convencional;;;Propios
+Camino Truncado;16;3,33;Fiesta;69433,6;17358,4;19/1/2026;lunes;enero;26/1/2026;4;5;Terminado;Convencional;;;Propios
+Camino Truncado;17;3,2;Arizul;107993,6;26998,4;9/3/2026;lunes;marzo;8/4/2026;11;15;;Convencional;;;Propios
+Camino Truncado;18;2,1;Arizul;76950;19237,5;9/3/2026;lunes;marzo;8/4/2026;11;15;;Convencional;;;Propios
+Camino Truncado;19;1,3;Arizul;29457,6;7364,4;16/3/2026;lunes;marzo;15/4/2026;12;16;;Convencional;;;Propios
+Camino Truncado;20;1,5;Flame;58776;14694;2/2/2026;lunes;febrero;4/3/2026;6;10;;Convencional;;;Propios
+Camino Truncado;21;2,6;Flame;119571,2;29892,8;6/2/2026;viernes;febrero;8/3/2026;6;11;;Convencional;;;Propios
+Camino Truncado;22;2,8;Fiesta;112608;28152;26/1/2026;lunes;enero;2/2/2026;5;6;;Convencional;;;Propios
+Camino Truncado;23;1,4;Flame;69465,6;17366,4;16/2/2026;lunes;febrero;18/3/2026;8;12;;Convencional;;;Propios
+Camino Truncado;51;3;Sultanina;75276;18819;12/1/2026;lunes;enero;19/1/2026;3;4;;Convencional;;;Propios
+Camino Truncado;52;2;Arizul;87964,8;21991,2;16/3/2026;lunes;marzo;15/4/2026;12;16;;Convencional;;;Propios
+Camino Truncado;53;2,2;Fiesta;94042;23510,5;26/1/2026;lunes;enero;2/2/2026;5;6;;Convencional;;;Propios
+Camino Truncado;54;1,1;Arizul;45208,8;11302,2;16/3/2026;lunes;marzo;15/4/2026;12;16;;Convencional;;;Propios
+Camino Truncado;55;2,1;Fiesta;80482,5;20120,625;26/1/2026;lunes;enero;2/2/2026;5;6;Terminado;Convencional;;;Propios
+Camino Truncado;56;1,8;Flame;77632,2;19408,05;23/2/2026;lunes;febrero;25/3/2026;9;13;;Convencional;;;Propios
+Camino Truncado;57;0,8;Flame;13770,9;3442,725;16/2/2026;lunes;febrero;18/3/2026;8;12;Terminado;Convencional;;;Propios
+Camino Truncado;58;2,1;Arizul;42924;10731;16/3/2026;lunes;marzo;15/4/2026;12;16;;Convencional;;;Propios
+Camino Truncado;59;0,9;Fiesta;30908,8;7727,2;26/1/2026;lunes;enero;2/2/2026;5;6;Terminado;Convencional;;;Propios
+La Chimbera;15;3,7;Flame;147237,6;36809,4;2/2/2026;lunes;febrero;4/3/2026;6;10;;Convencional;;;Propios
+La Chimbera;16;4,4;Flame;180224;45056;2/2/2026;lunes;febrero;4/3/2026;6;10;;Convencional;;;Propios
+La Chimbera;17;2,2;Flame;124723,2;31180,8;9/2/2026;lunes;febrero;11/3/2026;7;11;;Convencional;;;Propios
+La Chimbera;18;4,4;Flame;230912;57728;9/2/2026;lunes;febrero;11/3/2026;7;11;;Convencional;;;Propios
+La Chimbera;19;2,2;Flame;96051,2;24012,8;16/2/2026;lunes;febrero;18/3/2026;8;12;;Convencional;;;Propios
+La Chimbera;20;4,4;Fiesta;236544;59136;14/1/2026;miércoles;enero;21/1/2026;3;4;;Convencional;;;Propios
+La Chimbera;21;2,2;Flame;104652,8;26163,2;23/2/2026;lunes;febrero;25/3/2026;9;13;Terminado;Convencional;;;Propios
+La Chimbera;22;2,6;Fiesta;129514;32378,5;14/1/2026;miércoles;enero;21/1/2026;3;4;Terminado;Convencional;;;Propios
+La Chimbera;23;2,8;Fiesta;154496;38624;23/1/2026;viernes;enero;30/1/2026;4;5;Terminado;Convencional;;;Propios
+La Chimbera;24;2,8;Arizul;117504;29376;2/3/2026;lunes;marzo;1/4/2026;10;14;;Convencional;;;Propios
+La Chimbera;25;2,8;Arizul;109056;27264;9/3/2026;lunes;marzo;8/4/2026;11;15;;Convencional;;;Propios
+La Chimbera;26;2,9;Arizul;138240;34560;16/3/2026;lunes;marzo;15/4/2026;12;16;;Convencional;;;Propios
+La Chimbera;27;2,9;Arizul;143136;35784;23/3/2026;lunes;marzo;22/4/2026;13;17;;Convencional;;;Propios
+El Espejo I;1;3,13;Flame;157.568,40;39392,1;12/2/2026;jueves;febrero;12/2/2026;7;7;;DOV;;;Propios
+El Espejo I;2;2,85;Flame;154.446,60;38611,65;12/2/2026;jueves;febrero;12/2/2026;7;7;;DOV;;;Propios
+El Espejo I;3;6,31;Flame;75.720,00;18930;9/2/2026;lunes;febrero;11/3/2026;7;11;;Convencional;;;Propios
+El Espejo I;4;6,31;Flame;369.508,80;92377,2;9/2/2026;lunes;febrero;9/2/2026;7;7;;DOV;;;Propios
+El Espejo I;5;4,58;Flame;45.800,00;11450;12/2/2026;jueves;febrero;14/3/2026;7;11;Terminado;Convencional;;;Propios
+El Espejo I;6;2,03;Flame;20.300,00;5075;12/2/2026;jueves;febrero;14/3/2026;7;11;;Convencional;;;Propios
+El Espejo I;7;6,01;Flame;333.882,00;83470,5;3/2/2026;martes;febrero;3/2/2026;6;6;;DOV;;;Propios
+El Espejo I;8;4,83;Flame;329.945,40;82486,35;3/2/2026;martes;febrero;3/2/2026;6;6;;DOV;;;Propios
+El Espejo I;9;6,73;Flame;368.160,47;92040,1169;3/2/2026;martes;febrero;3/2/2026;6;6;;DOV;;;Propios
+El Espejo I;10;1,64;Flame;32.800,00;8200;19/2/2026;jueves;febrero;21/3/2026;8;12;;Convencional;;;Propios
+El Espejo I;11;4,07;Flame;48.840,00;12210;19/2/2026;jueves;febrero;21/3/2026;8;12;;Convencional;;;Propios
+El Espejo I;12;2,29;Flame;45.800,00;11450;19/2/2026;jueves;febrero;21/3/2026;8;12;;Convencional;;;Propios
+El Espejo I;14;5,11;Flame;51.100,00;12775;19/2/2026;jueves;febrero;21/3/2026;8;12;Terminado;Convencional;;;Propios
+El Espejo II;14;2,28;Fiesta;60506,1;15126,525;3/2/2026;martes;febrero;3/2/2026;6;6;;DOV;;;Propios
+El Espejo II;15;3,44;Fiesta;116833,5778;29208,39444;9/2/2026;lunes;febrero;9/2/2026;7;7;;DOV;;;Propios
+El Espejo II;16;4,9;Fiesta;101347,2;25336,8;9/2/2026;lunes;febrero;9/2/2026;7;7;Terminado;DOV;;;Propios
+El Espejo II;17;3,43;Fiesta;72394,8;18098,7;3/2/2026;martes;febrero;3/2/2026;6;6;;DOV;;;Propios
+El Espejo II;18;2,12;Fiesta;54259,09091;13564,77273;3/2/2026;martes;febrero;3/2/2026;6;6;Terminado;DOV;;;Propios
+El Espejo II;19;3,59;Fiesta;86229,32389;21557,33097;29/1/2026;jueves;enero;29/1/2026;5;5;Terminado;DOV;;;Propios
+El Espejo II;20;4,68;Fiesta;119790,9;29947,725;29/1/2026;jueves;enero;29/1/2026;5;5;Terminado;DOV;;;Propios
+El Espejo II;21;3,19;Fiesta;118744,2766;29686,06915;26/1/2026;lunes;enero;26/1/2026;5;5;Terminado;DOV;;;Propios
+El Espejo II;9;5,54;Flame;224802;56200,5;2/3/2026;lunes;marzo;2/3/2026;10;10;;DOV;;;Propios
+El Espejo II;10;5,54;Flame;239623,2;59905,8;2/3/2026;lunes;marzo;2/3/2026;10;10;;DOV;;;Propios
+El Espejo II;11;5,54;Flame;248206,8;62051,7;2/3/2026;lunes;marzo;2/3/2026;10;10;;DOV;;;Propios
+El Espejo II;12;5,54;Flame;221600;55400;16/3/2026;lunes;marzo;16/3/2026;12;12;;DOV;;;Propios
+El Espejo II;1;5,54;Selma;220330,8;55082,7;16/3/2026;lunes;marzo;16/3/2026;12;12;;DOV;;;Propios
+El Espejo II;2;5,54;Selma;269044,8;67261,2;16/3/2026;lunes;marzo;16/3/2026;12;12;;DOV;;;Propios
+El Espejo II;3;5,54;Selma;208849,2;52212,3;1/4/2026;miércoles;abril;1/4/2026;14;14;;DOV;;;Propios
+El Espejo II;4;5,54;Selma;233551,2;58387,8;1/4/2026;miércoles;abril;1/4/2026;14;14;;DOV;;;Propios
+El Espejo II;5;5,54;Selma;138500;34625;1/4/2026;miércoles;abril;1/4/2026;14;14;;DOV;;;Propios
+El Espejo II;6;5,54;Selma;138500;34625;1/4/2026;miércoles;abril;1/4/2026;14;14;;DOV;;;Propios
+El Espejo II;7;5,54;Selma;138500;34625;1/4/2026;miércoles;abril;1/4/2026;14;14;;DOV;;;Propios
+El Espejo II;8;5,54;Selma;138500;34625;1/4/2026;miércoles;abril;1/4/2026;14;14;;DOV;;;Propios
+El Espejo III;22;3,64;Fiesta;72800;18200;15/1/2026;jueves;enero;22/1/2026;3;4;Terminado;Convencional;;;Propios
+El Espejo III;23;3,64;Fiesta;72800;18200;15/1/2026;jueves;enero;22/1/2026;3;4;Terminado;Convencional;;;Propios
+El Espejo III;24;3,64;Flame;58240;14560;21/1/2026;miércoles;enero;28/1/2026;4;5;Terminado;Convencional;;;Propios
+El Espejo III;25;2;Flame;32000;8000;21/1/2026;miércoles;enero;28/1/2026;4;5;Terminado;Convencional;;;Propios
+El Espejo III;26;2,8;Fiesta;44800;11200;16/12/2025;martes;diciembre;23/12/2025;51;52;Terminado;Convencional;;;Propios
+El Espejo III;27;2,85;Fiesta;45600;11400;16/12/2025;martes;diciembre;23/12/2025;51;52;Terminado;Convencional;;;Propios
+El Espejo III;28;4,28;Fiesta;68480;17120;22/12/2025;lunes;diciembre;29/12/2025;52;53;Terminado;Convencional;;;Propios
+El Espejo III;29;2,25;Flame;36000;9000;21/1/2026;miércoles;enero;28/1/2026;4;5;Terminado;Convencional;;;Propios
+El Espejo III;30;4,32;Fiesta;69120;17280;22/12/2025;lunes;diciembre;29/12/2025;52;53;Terminado;Convencional;;;Propios
+El Espejo III;31;4,26;Fiesta;68160;17040;30/12/2025;martes;diciembre;6/1/2026;53;2;Terminado;Convencional;;;Propios
+El Espejo III;32;4,54;Flame;72640;18160;26/1/2026;lunes;enero;2/2/2026;5;6;Terminado;Convencional;;;Propios
+El Espejo III;33;4,26;Fiesta;68160;17040;2/1/2026;viernes;enero;9/1/2026;1;2;Terminado;Convencional;;;Propios
+El Espejo III;34;4,26;Fiesta;68160;17040;2/1/2026;viernes;enero;9/1/2026;1;2;Terminado;Convencional;;;Propios
+El Espejo III;35;4,32;Flame;69120;17280;26/1/2026;lunes;enero;2/2/2026;5;6;Terminado;Convencional;;;Propios
+El Espejo III;36;4,32;Fiesta;69120;17280;7/1/2026;miércoles;enero;14/1/2026;2;3;Terminado;Convencional;;;Propios
+El Espejo III;37;4,26;Fiesta;68160;17040;7/1/2026;miércoles;enero;14/1/2026;2;3;Terminado;Convencional;;;Propios
+El Espejo III;38;4,06;Flame;64960;16240;26/1/2026;lunes;enero;2/2/2026;5;6;Terminado;Convencional;;;Propios
+El Espejo III;39;4,23;Selma;21150;5287,5;16/12/2025;martes;diciembre;23/12/2025;51;52;Terminado;Convencional;;;Propios
+El Espejo III;40;4,23;Fiesta;21150;5287,5;16/12/2025;martes;diciembre;23/12/2025;51;52;Terminado;Convencional;;;Propios
+El Espejo III;41;3,86;Flame;19300;4825;16/12/2025;martes;diciembre;23/12/2025;51;52;Terminado;Convencional;;;Propios
+El Espejo III;42;4,23;Selma;21150;5287,5;16/12/2025;martes;diciembre;23/12/2025;51;52;Terminado;Convencional;;;Propios
+El Espejo III;43;4,23;Fiesta;21150;5287,5;16/12/2025;martes;diciembre;23/12/2025;51;52;Terminado;Convencional;;;Propios
+El Espejo III;44;3,65;Flame;18250;4562,5;16/12/2025;martes;diciembre;23/12/2025;51;52;Terminado;Convencional;;;Propios
+El Espejo III;45;4,26;Selma;21300;5325;16/12/2025;martes;diciembre;23/12/2025;51;52;Terminado;Convencional;;;Propios
+El Espejo III;46;3,83;Fiesta;19150;4787,5;16/12/2025;martes;diciembre;23/12/2025;51;52;Terminado;Convencional;;;Propios
+El Espejo III;47;2,83;Flame;14150;3537,5;16/12/2025;martes;diciembre;23/12/2025;51;52;Terminado;Convencional;;;Propios
+Proyecto San Juan;1;1;Fiesta;150000;37500;15/1/2026;jueves;enero;30/1/2026;3;5;Terminado;Convencional;;;Terceros
+Galan Raul;1;1;Fiesta;75000;18750;15/1/2026;jueves;enero;30/1/2026;3;5;Terminado;Convencional;;;Terceros
+Barriga Enrique;1;1;Flame;75000;18750;15/1/2026;jueves;enero;30/1/2026;3;5;;Convencional;;;Terceros
+Barriga Enrique;2;1;Fiesta;40000;10000;15/1/2026;jueves;enero;30/1/2026;3;5;;Convencional;;;Terceros
+Leiva;1;1;Fiesta;90000;22500;15/1/2026;jueves;enero;30/1/2026;3;5;;Convencional;;;Terceros
+Leiva;2;1;Selma;50000;12500;26/1/2026;lunes;enero;10/2/2026;5;7;;Convencional;;;Terceros
+Leiva;3;1;Flame;315000;78750;15/1/2026;jueves;enero;30/1/2026;3;5;;Convencional;;;Terceros
+Leiva;4;1;Superior;7000;1750;15/1/2026;jueves;enero;30/1/2026;3;5;;Convencional;;;Terceros
+CINCOEMES;1;1;Flame;30000;7500;20/1/2026;martes;enero;4/2/2026;4;6;;Convencional;;;Terceros
+Lopez Aceituno;1;1;Fiesta;20000;5000;2/2/2026;lunes;febrero;4/3/2026;6;10;;Convencional;;;Terceros
+Roberto Antonio Estevez;1;1;Flame;50000;12500;2/2/2026;lunes;febrero;4/3/2026;6;10;;Convencional;;;Terceros
+Osvaldo Miranda;1;1;Flame;50000;12500;2/2/2026;lunes;febrero;4/3/2026;6;10;;Convencional;;;Terceros
+Lopez Aceituno;2;1;Flame;50000;12500;2/2/2026;lunes;febrero;4/3/2026;6;10;;Convencional;;;Terceros
+Guerrero;1;1;Flame;50000;12500;2/2/2026;lunes;febrero;4/3/2026;6;10;;Convencional;;;Terceros
