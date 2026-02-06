@@ -1,0 +1,1652 @@
+﻿const HISTORICAL_DATA_RAW = \"Finca;Cuartel;Variedad;Has;Año;Kg;Estado;Referencia
+Camino Truncado;8;Arizul;2,37;2013;46.930;Uva;Camino Truncado 8 2013
+Camino Truncado;8;Arizul;2,37;2014;24.110;Uva;Camino Truncado 8 2014
+Camino Truncado;8;Arizul;2,37;2015;45.950;Uva;Camino Truncado 8 2015
+Camino Truncado;8;Arizul;2,37;2016;37.500;Uva;Camino Truncado 8 2016
+Camino Truncado;8;Arizul;2,37;2017;27.436;Uva;Camino Truncado 8 2017
+Camino Truncado;8;Arizul;2,37;2018;39.059;Uva;Camino Truncado 8 2018
+Camino Truncado;8;Arizul;2,37;2019;103.028;Uva;Camino Truncado 8 2019
+Camino Truncado;8;Arizul;2,37;2020;42.500;Uva;Camino Truncado 8 2020
+Camino Truncado;8;Arizul;2,37;2021;113.917;Uva;Camino Truncado 8 2021
+Camino Truncado;8;Arizul;2,37;2022;15.373;Uva;Camino Truncado 8 2022
+Camino Truncado;8;Arizul;2,37;2023;32.280;Uva;Camino Truncado 8 2023
+Camino Truncado;8;Arizul;2,37;2024;42.190;Uva;Camino Truncado 8 2024
+Camino Truncado;2;Flame;4,08;2025;100.935;Uva;Camino Truncado 2 2025
+Camino Truncado;12;Arizul;2,54;2013;45.360;Uva;Camino Truncado 12 2013
+Camino Truncado;12;Arizul;2,54;2014;66.950;Uva;Camino Truncado 12 2014
+Camino Truncado;12;Arizul;2,54;2015;38.900;Uva;Camino Truncado 12 2015
+Camino Truncado;12;Arizul;2,54;2016;64.710;Uva;Camino Truncado 12 2016
+Camino Truncado;12;Arizul;2,54;2017;64.800;Uva;Camino Truncado 12 2017
+Camino Truncado;12;Arizul;2,54;2018;129.224;Uva;Camino Truncado 12 2018
+Camino Truncado;12;Arizul;2,54;2019;51.445;Uva;Camino Truncado 12 2019
+Camino Truncado;12;Arizul;2,54;2020;83.598;Uva;Camino Truncado 12 2020
+Camino Truncado;12;Arizul;2,54;2021;92.290;Uva;Camino Truncado 12 2021
+Camino Truncado;12;Arizul;2,54;2022;37.365;Uva;Camino Truncado 12 2022
+Camino Truncado;12;Arizul;2,54;2023;68.500;Uva;Camino Truncado 12 2023
+Camino Truncado;12;Arizul;2,54;2024;94.410;Uva;Camino Truncado 12 2024
+Camino Truncado;2;Flame;4,08;2025;26.539;Pasa;Camino Truncado 2 2025
+Camino Truncado;13;Arizul;1,73;2013;43.350;Uva;Camino Truncado 13 2013
+Camino Truncado;13;Arizul;1,73;2014;69.965;Uva;Camino Truncado 13 2014
+Camino Truncado;13;Arizul;1,73;2015;22.920;Uva;Camino Truncado 13 2015
+Camino Truncado;13;Arizul;1,73;2016;39.780;Uva;Camino Truncado 13 2016
+Camino Truncado;13;Arizul;1,73;2017;63.021;Uva;Camino Truncado 13 2017
+Camino Truncado;13;Arizul;1,73;2018;89.620;Uva;Camino Truncado 13 2018
+Camino Truncado;13;Arizul;1,73;2019;63.640;Uva;Camino Truncado 13 2019
+Camino Truncado;13;Arizul;1,73;2020;30.930;Uva;Camino Truncado 13 2020
+Camino Truncado;13;Arizul;1,73;2021;68.695;Uva;Camino Truncado 13 2021
+Camino Truncado;13;Arizul;1,73;2022;55.280;Uva;Camino Truncado 13 2022
+Camino Truncado;13;Arizul;1,73;2023;36.460;Uva;Camino Truncado 13 2023
+Camino Truncado;13;Arizul;1,73;2024;54.760;Uva;Camino Truncado 13 2024
+Camino Truncado;4;Flame;3,03;2025;85.215;Uva;Camino Truncado 4 2025
+Camino Truncado;15;Arizul;3,44;2013;110.650;Uva;Camino Truncado 15 2013
+Camino Truncado;15;Arizul;3,44;2014;129.940;Uva;Camino Truncado 15 2014
+Camino Truncado;15;Arizul;3,44;2015;63.030;Uva;Camino Truncado 15 2015
+Camino Truncado;15;Arizul;3,44;2017;147.505;Uva;Camino Truncado 15 2017
+Camino Truncado;15;Arizul;3,44;2018;146.024;Uva;Camino Truncado 15 2018
+Camino Truncado;15;Arizul;3,44;2019;123.144;Uva;Camino Truncado 15 2019
+Camino Truncado;15;Arizul;3,44;2020;63.438;Uva;Camino Truncado 15 2020
+Camino Truncado;15;Arizul;3,44;2021;101.659;Uva;Camino Truncado 15 2021
+Camino Truncado;15;Arizul;3,44;2022;84.725;Uva;Camino Truncado 15 2022
+Camino Truncado;15;Arizul;3,44;2023;43.840;Uva;Camino Truncado 15 2023
+Camino Truncado;15;Arizul;3,44;2024;119.045;Uva;Camino Truncado 15 2024
+Camino Truncado;4;Flame;3,03;2025;26.047;Pasa;Camino Truncado 4 2025
+Camino Truncado;17;Arizul;3,25;2013;60.200;Uva;Camino Truncado 17 2013
+Camino Truncado;17;Arizul;3,25;2014;52.270;Uva;Camino Truncado 17 2014
+Camino Truncado;17;Arizul;3,25;2015;72.680;Uva;Camino Truncado 17 2015
+Camino Truncado;17;Arizul;3,25;2016;54.410;Uva;Camino Truncado 17 2016
+Camino Truncado;17;Arizul;3,25;2017;68.427;Uva;Camino Truncado 17 2017
+Camino Truncado;17;Arizul;3,25;2018;105.898;Uva;Camino Truncado 17 2018
+Camino Truncado;17;Arizul;3,25;2019;92.589;Uva;Camino Truncado 17 2019
+Camino Truncado;17;Arizul;3,25;2020;70.732;Uva;Camino Truncado 17 2020
+Camino Truncado;17;Arizul;3,25;2021;50.263;Uva;Camino Truncado 17 2021
+Camino Truncado;17;Arizul;3,25;2022;73.695;Uva;Camino Truncado 17 2022
+Camino Truncado;17;Arizul;3,25;2023;34.180;Uva;Camino Truncado 17 2023
+Camino Truncado;17;Arizul;3,25;2024;74.642;Uva;Camino Truncado 17 2024
+Camino Truncado;5;Flame;4,21;2025;94.170;Uva;Camino Truncado 5 2025
+Camino Truncado;18;Arizul;2,05;2017;11.760;Uva;Camino Truncado 18 2017
+Camino Truncado;18;Arizul;2,05;2018;39.049;Uva;Camino Truncado 18 2018
+Camino Truncado;18;Arizul;2,05;2019;59.660;Uva;Camino Truncado 18 2019
+Camino Truncado;18;Arizul;2,05;2020;54.642;Uva;Camino Truncado 18 2020
+Camino Truncado;18;Arizul;2,05;2021;98.840;Uva;Camino Truncado 18 2021
+Camino Truncado;18;Arizul;2,05;2022;15.568;Uva;Camino Truncado 18 2022
+Camino Truncado;18;Arizul;2,05;2023;51.620;Uva;Camino Truncado 18 2023
+Camino Truncado;18;Arizul;2,05;2024;81.855;Uva;Camino Truncado 18 2024
+Camino Truncado;5;Flame;4,21;2025;28.473;Pasa;Camino Truncado 5 2025
+Camino Truncado;19;Arizul;1,298;2017;1.940;Uva;Camino Truncado 19 2017
+Camino Truncado;19;Arizul;1,298;2018;7.088;Uva;Camino Truncado 19 2018
+Camino Truncado;19;Arizul;1,298;2019;14.386;Uva;Camino Truncado 19 2019
+Camino Truncado;19;Arizul;1,298;2020;17.834;Uva;Camino Truncado 19 2020
+Camino Truncado;19;Arizul;1,298;2021;28.270;Uva;Camino Truncado 19 2021
+Camino Truncado;19;Arizul;1,298;2022;10.945;Uva;Camino Truncado 19 2022
+Camino Truncado;19;Arizul;1,298;2023;23.620;Uva;Camino Truncado 19 2023
+Camino Truncado;19;Arizul;1,298;2024;40.100;Uva;Camino Truncado 19 2024
+Camino Truncado;8;Arizul;2,37;2025;29.200;Uva;Camino Truncado 8 2025
+Camino Truncado;52;Arizul;2;2017;23.720;Uva;Camino Truncado 52 2017
+Camino Truncado;52;Arizul;2;2018;59.462;Uva;Camino Truncado 52 2018
+Camino Truncado;52;Arizul;2;2019;135.167;Uva;Camino Truncado 52 2019
+Camino Truncado;52;Arizul;2;2020;59.410;Uva;Camino Truncado 52 2020
+Camino Truncado;52;Arizul;2;2021;130.400;Uva;Camino Truncado 52 2021
+Camino Truncado;52;Arizul;2;2022;51.895;Uva;Camino Truncado 52 2022
+Camino Truncado;52;Arizul;2;2023;67.060;Uva;Camino Truncado 52 2023
+Camino Truncado;52;Arizul;2;2024;110.880;Uva;Camino Truncado 52 2024
+Camino Truncado;8;Arizul;2,37;2025;4.513;Pasa;Camino Truncado 8 2025
+Camino Truncado;54;Arizul;1,08;2017;5.100;Uva;Camino Truncado 54 2017
+Camino Truncado;54;Arizul;1,08;2018;19.773;Uva;Camino Truncado 54 2018
+Camino Truncado;54;Arizul;1,08;2019;29.155;Uva;Camino Truncado 54 2019
+Camino Truncado;54;Arizul;1,08;2020;24.390;Uva;Camino Truncado 54 2020
+Camino Truncado;54;Arizul;1,08;2021;47.267;Uva;Camino Truncado 54 2021
+Camino Truncado;54;Arizul;1,08;2022;18.965;Uva;Camino Truncado 54 2022
+Camino Truncado;54;Arizul;1,08;2023;13.480;Uva;Camino Truncado 54 2023
+Camino Truncado;54;Arizul;1,08;2024;35.940;Uva;Camino Truncado 54 2024
+Camino Truncado;9;Sultanina;2,73;2025;17.395;Uva;Camino Truncado 9 2025
+Camino Truncado;58;Arizul;2,15;2017;12.780;Uva;Camino Truncado 58 2017
+Camino Truncado;58;Arizul;2,15;2018;26.795;Uva;Camino Truncado 58 2018
+Camino Truncado;58;Arizul;2,15;2019;46.006;Uva;Camino Truncado 58 2019
+Camino Truncado;58;Arizul;2,15;2020;35.549;Uva;Camino Truncado 58 2020
+Camino Truncado;58;Arizul;2,15;2021;69.153;Uva;Camino Truncado 58 2021
+Camino Truncado;58;Arizul;2,15;2022;33.580;Uva;Camino Truncado 58 2022
+Camino Truncado;58;Arizul;2,15;2023;24.400;Uva;Camino Truncado 58 2023
+Camino Truncado;58;Arizul;2,15;2024;34.580;Uva;Camino Truncado 58 2024
+Camino Truncado;9;Sultanina;2,73;2025;6.850;Pasa;Camino Truncado 9 2025
+Camino Truncado;2;Flame;4,08;2013;12.630;Uva;Camino Truncado 2 2013
+Camino Truncado;2;Flame;4,08;2014;40.190;Uva;Camino Truncado 2 2014
+Camino Truncado;2;Flame;4,08;2016;53.560;Uva;Camino Truncado 2 2016
+Camino Truncado;2;Flame;4,08;2017;50.216;Uva;Camino Truncado 2 2017
+Camino Truncado;2;Flame;4,08;2018;68.339;Uva;Camino Truncado 2 2018
+Camino Truncado;2;Flame;4,08;2019;52.678;Uva;Camino Truncado 2 2019
+Camino Truncado;2;Flame;4,08;2020;63.842;Uva;Camino Truncado 2 2020
+Camino Truncado;2;Flame;4,08;2021;83.648;Uva;Camino Truncado 2 2021
+Camino Truncado;2;Flame;4,08;2022;73.170;Uva;Camino Truncado 2 2022
+Camino Truncado;2;Flame;4,08;2023;10.715;Uva;Camino Truncado 2 2023
+Camino Truncado;2;Flame;4,08;2024;127.670;Uva;Camino Truncado 2 2024
+Camino Truncado;10;Fiesta;1,9;2025;99.540;Uva;Camino Truncado 10 2025
+Camino Truncado;4;Flame;3,03;2013;91.340;Uva;Camino Truncado 4 2013
+Camino Truncado;4;Flame;3,03;2014;15.260;Uva;Camino Truncado 4 2014
+Camino Truncado;4;Flame;3,03;2015;80.610;Uva;Camino Truncado 4 2015
+Camino Truncado;4;Flame;3,03;2016;85.090;Uva;Camino Truncado 4 2016
+Camino Truncado;4;Flame;3,03;2017;79.567;Uva;Camino Truncado 4 2017
+Camino Truncado;4;Flame;3,03;2018;74.134;Uva;Camino Truncado 4 2018
+Camino Truncado;4;Flame;3,03;2019;41.821;Uva;Camino Truncado 4 2019
+Camino Truncado;4;Flame;3,03;2020;89.825;Uva;Camino Truncado 4 2020
+Camino Truncado;4;Flame;3,03;2021;71.125;Uva;Camino Truncado 4 2021
+Camino Truncado;4;Flame;3,03;2022;63.495;Uva;Camino Truncado 4 2022
+Camino Truncado;4;Flame;3,03;2023;46.740;Uva;Camino Truncado 4 2023
+Camino Truncado;4;Flame;3,03;2024;51.820;Uva;Camino Truncado 4 2024
+Camino Truncado;10;Fiesta;1,9;2025;24.555;Pasa;Camino Truncado 10 2025
+Camino Truncado;5;Flame;4,21;2013;116.565;Uva;Camino Truncado 5 2013
+Camino Truncado;5;Flame;4,21;2014;65.580;Uva;Camino Truncado 5 2014
+Camino Truncado;5;Flame;4,21;2015;112.810;Uva;Camino Truncado 5 2015
+Camino Truncado;5;Flame;4,21;2016;98.790;Uva;Camino Truncado 5 2016
+Camino Truncado;5;Flame;4,21;2017;127.270;Uva;Camino Truncado 5 2017
+Camino Truncado;5;Flame;4,21;2018;117.315;Uva;Camino Truncado 5 2018
+Camino Truncado;5;Flame;4,21;2019;79.126;Uva;Camino Truncado 5 2019
+Camino Truncado;5;Flame;4,21;2020;130.707;Uva;Camino Truncado 5 2020
+Camino Truncado;5;Flame;4,21;2021;83.175;Uva;Camino Truncado 5 2021
+Camino Truncado;5;Flame;4,21;2022;89.895;Uva;Camino Truncado 5 2022
+Camino Truncado;5;Flame;4,21;2023;117.225;Uva;Camino Truncado 5 2023
+Camino Truncado;5;Flame;4,21;2024;111.530;Uva;Camino Truncado 5 2024
+Camino Truncado;11;Fiesta;2,58;2025;86.050;Uva;Camino Truncado 11 2025
+Camino Truncado;20;Flame;1,473;2017;7.270;Uva;Camino Truncado 20 2017
+Camino Truncado;20;Flame;1,473;2018;22.873;Uva;Camino Truncado 20 2018
+Camino Truncado;20;Flame;1,473;2019;20.122;Uva;Camino Truncado 20 2019
+Camino Truncado;20;Flame;1,473;2020;48.036;Uva;Camino Truncado 20 2020
+Camino Truncado;20;Flame;1,473;2021;41.023;Uva;Camino Truncado 20 2021
+Camino Truncado;20;Flame;1,473;2022;6.655;Uva;Camino Truncado 20 2022
+Camino Truncado;20;Flame;1,473;2023;40.840;Uva;Camino Truncado 20 2023
+Camino Truncado;20;Flame;1,473;2024;37.640;Uva;Camino Truncado 20 2024
+Camino Truncado;11;Fiesta;2,58;2025;20.149;Pasa;Camino Truncado 11 2025
+Camino Truncado;21;Flame;2,64;2017;22.340;Uva;Camino Truncado 21 2017
+Camino Truncado;21;Flame;2,64;2018;50.311;Uva;Camino Truncado 21 2018
+Camino Truncado;21;Flame;2,64;2019;54.822;Uva;Camino Truncado 21 2019
+Camino Truncado;21;Flame;2,64;2020;80.232;Uva;Camino Truncado 21 2020
+Camino Truncado;21;Flame;2,64;2021;64.483;Uva;Camino Truncado 21 2021
+Camino Truncado;21;Flame;2,64;2022;4.980;Uva;Camino Truncado 21 2022
+Camino Truncado;21;Flame;2,64;2023;46.680;Uva;Camino Truncado 21 2023
+Camino Truncado;21;Flame;2,64;2024;71.060;Uva;Camino Truncado 21 2024
+Camino Truncado;12;Arizul;2,54;2025;81.211;Uva;Camino Truncado 12 2025
+Camino Truncado;23;Flame;1,4528;2017;11.260;Uva;Camino Truncado 23 2017
+Camino Truncado;23;Flame;1,4528;2018;25.592;Uva;Camino Truncado 23 2018
+Camino Truncado;23;Flame;1,4528;2019;25.308;Uva;Camino Truncado 23 2019
+Camino Truncado;23;Flame;1,4528;2020;48.636;Uva;Camino Truncado 23 2020
+Camino Truncado;23;Flame;1,4528;2021;48.050;Uva;Camino Truncado 23 2021
+Camino Truncado;23;Flame;1,4528;2022;8.355;Uva;Camino Truncado 23 2022
+Camino Truncado;23;Flame;1,4528;2023;49.480;Uva;Camino Truncado 23 2023
+Camino Truncado;23;Flame;1,4528;2024;25.590;Uva;Camino Truncado 23 2024
+Camino Truncado;12;Arizul;2,54;2025;23.036;Pasa;Camino Truncado 12 2025
+Camino Truncado;56;Flame;1,81;2017;1.612;Uva;Camino Truncado 56 2017
+Camino Truncado;56;Flame;1,81;2018;4.007;Uva;Camino Truncado 56 2018
+Camino Truncado;56;Flame;1,81;2019;6.369;Uva;Camino Truncado 56 2019
+Camino Truncado;56;Flame;1,81;2020;37.692;Uva;Camino Truncado 56 2020
+Camino Truncado;56;Flame;1,81;2021;40.863;Uva;Camino Truncado 56 2021
+Camino Truncado;56;Flame;1,81;2022;18.230;Uva;Camino Truncado 56 2022
+Camino Truncado;56;Flame;1,81;2023;64.340;Uva;Camino Truncado 56 2023
+Camino Truncado;56;Flame;1,81;2024;22.840;Uva;Camino Truncado 56 2024
+Camino Truncado;13;Arizul;1,73;2025;44.620;Uva;Camino Truncado 13 2025
+Camino Truncado;57;Flame;0,83;2017;756;Uva;Camino Truncado 57 2017
+Camino Truncado;57;Flame;0,83;2018;13.295;Uva;Camino Truncado 57 2018
+Camino Truncado;57;Flame;0,83;2019;8.650;Uva;Camino Truncado 57 2019
+Camino Truncado;57;Flame;0,83;2020;15.821;Uva;Camino Truncado 57 2020
+Camino Truncado;57;Flame;0,83;2021;16.340;Uva;Camino Truncado 57 2021
+Camino Truncado;57;Flame;0,83;2022;10.885;Uva;Camino Truncado 57 2022
+Camino Truncado;57;Flame;0,83;2023;9.700;Uva;Camino Truncado 57 2023
+Camino Truncado;57;Flame;0,83;2024;7.500;Uva;Camino Truncado 57 2024
+Camino Truncado;13;Arizul;1,73;2025;10.552;Pasa;Camino Truncado 13 2025
+Camino Truncado;10;Fiesta;1,9;2017;12.780;Uva;Camino Truncado 10 2017
+Camino Truncado;10;Fiesta;1,9;2018;27.750;Uva;Camino Truncado 10 2018
+Camino Truncado;10;Fiesta;1,9;2019;30.524;Uva;Camino Truncado 10 2019
+Camino Truncado;10;Fiesta;1,9;2020;50.278;Uva;Camino Truncado 10 2020
+Camino Truncado;10;Fiesta;1,9;2021;112.990;Uva;Camino Truncado 10 2021
+Camino Truncado;10;Fiesta;1,9;2022;35.975;Uva;Camino Truncado 10 2022
+Camino Truncado;10;Fiesta;1,9;2023;43.140;Uva;Camino Truncado 10 2023
+Camino Truncado;10;Fiesta;1,9;2024;97.090;Uva;Camino Truncado 10 2024
+Camino Truncado;14;Superior;2,99;2025;45.755;Uva;Camino Truncado 14 2025
+Camino Truncado;11;Fiesta;2,58;2013;37.356;Uva;Camino Truncado 11 2013
+Camino Truncado;11;Fiesta;2,58;2014;39.620;Uva;Camino Truncado 11 2014
+Camino Truncado;11;Fiesta;2,58;2015;56.440;Uva;Camino Truncado 11 2015
+Camino Truncado;11;Fiesta;2,58;2016;17.580;Uva;Camino Truncado 11 2016
+Camino Truncado;11;Fiesta;2,58;2017;55.234;Uva;Camino Truncado 11 2017
+Camino Truncado;11;Fiesta;2,58;2018;73.646;Uva;Camino Truncado 11 2018
+Camino Truncado;11;Fiesta;2,58;2019;55.038;Uva;Camino Truncado 11 2019
+Camino Truncado;11;Fiesta;2,58;2020;64.072;Uva;Camino Truncado 11 2020
+Camino Truncado;11;Fiesta;2,58;2021;71.205;Uva;Camino Truncado 11 2021
+Camino Truncado;11;Fiesta;2,58;2022;31.485;Uva;Camino Truncado 11 2022
+Camino Truncado;11;Fiesta;2,58;2023;50.945;Uva;Camino Truncado 11 2023
+Camino Truncado;11;Fiesta;2,58;2024;96.070;Uva;Camino Truncado 11 2024
+Camino Truncado;14;Superior;2,99;2025;10.290;Pasa;Camino Truncado 14 2025
+Camino Truncado;16;Fiesta;3,33;2013;47.316;Uva;Camino Truncado 16 2013
+Camino Truncado;16;Fiesta;3,33;2014;50.010;Uva;Camino Truncado 16 2014
+Camino Truncado;16;Fiesta;3,33;2015;77.940;Uva;Camino Truncado 16 2015
+Camino Truncado;16;Fiesta;3,33;2016;44.610;Uva;Camino Truncado 16 2016
+Camino Truncado;16;Fiesta;3,33;2017;64.017;Uva;Camino Truncado 16 2017
+Camino Truncado;16;Fiesta;3,33;2018;73.879;Uva;Camino Truncado 16 2018
+Camino Truncado;16;Fiesta;3,33;2019;77.460;Uva;Camino Truncado 16 2019
+Camino Truncado;16;Fiesta;3,33;2020;63.750;Uva;Camino Truncado 16 2020
+Camino Truncado;16;Fiesta;3,33;2021;67.141;Uva;Camino Truncado 16 2021
+Camino Truncado;16;Fiesta;3,33;2022;58.620;Uva;Camino Truncado 16 2022
+Camino Truncado;16;Fiesta;3,33;2023;76.260;Uva;Camino Truncado 16 2023
+Camino Truncado;16;Fiesta;3,33;2024;138.280;Uva;Camino Truncado 16 2024
+Camino Truncado;15;Arizul;3,44;2025;102.892;Uva;Camino Truncado 15 2025
+Camino Truncado;22;Fiesta;2,82;2017;20.190;Uva;Camino Truncado 22 2017
+Camino Truncado;22;Fiesta;2,82;2018;56.760;Uva;Camino Truncado 22 2018
+Camino Truncado;22;Fiesta;2,82;2019;61.553;Uva;Camino Truncado 22 2019
+Camino Truncado;22;Fiesta;2,82;2020;64.494;Uva;Camino Truncado 22 2020
+Camino Truncado;22;Fiesta;2,82;2021;154.301;Uva;Camino Truncado 22 2021
+Camino Truncado;22;Fiesta;2,82;2022;45.000;Uva;Camino Truncado 22 2022
+Camino Truncado;22;Fiesta;2,82;2023;51.660;Uva;Camino Truncado 22 2023
+Camino Truncado;22;Fiesta;2,82;2024;135.235;Uva;Camino Truncado 22 2024
+Camino Truncado;15;Arizul;3,44;2025;22.054;Pasa;Camino Truncado 15 2025
+Camino Truncado;53;Fiesta;2,17;2017;1.208;Uva;Camino Truncado 53 2017
+Camino Truncado;53;Fiesta;2,17;2018;16.855;Uva;Camino Truncado 53 2018
+Camino Truncado;53;Fiesta;2,17;2019;38.360;Uva;Camino Truncado 53 2019
+Camino Truncado;53;Fiesta;2,17;2020;38.938;Uva;Camino Truncado 53 2020
+Camino Truncado;53;Fiesta;2,17;2021;101.125;Uva;Camino Truncado 53 2021
+Camino Truncado;53;Fiesta;2,17;2022;96.315;Uva;Camino Truncado 53 2022
+Camino Truncado;53;Fiesta;2,17;2023;38.960;Uva;Camino Truncado 53 2023
+Camino Truncado;53;Fiesta;2,17;2024;110.180;Uva;Camino Truncado 53 2024
+Camino Truncado;16;Fiesta;3,33;2025;142.120;Uva;Camino Truncado 16 2025
+Camino Truncado;55;Fiesta;2,15;2019;11.569;Uva;Camino Truncado 55 2019
+Camino Truncado;55;Fiesta;2,15;2020;36.020;Uva;Camino Truncado 55 2020
+Camino Truncado;55;Fiesta;2,15;2021;58.831;Uva;Camino Truncado 55 2021
+Camino Truncado;55;Fiesta;2,15;2022;79.923;Uva;Camino Truncado 55 2022
+Camino Truncado;55;Fiesta;2,15;2023;38.680;Uva;Camino Truncado 55 2023
+Camino Truncado;55;Fiesta;2,15;2024;92.000;Uva;Camino Truncado 55 2024
+Camino Truncado;16;Fiesta;3,33;2025;34.656;Pasa;Camino Truncado 16 2025
+Camino Truncado;59;Fiesta;0,89;2019;2.742;Uva;Camino Truncado 59 2019
+Camino Truncado;59;Fiesta;0,89;2020;4.420;Uva;Camino Truncado 59 2020
+Camino Truncado;59;Fiesta;0,89;2021;17.186;Uva;Camino Truncado 59 2021
+Camino Truncado;59;Fiesta;0,89;2022;16.090;Uva;Camino Truncado 59 2022
+Camino Truncado;59;Fiesta;0,89;2023;17.380;Uva;Camino Truncado 59 2023
+Camino Truncado;59;Fiesta;0,89;2024;26.475;Uva;Camino Truncado 59 2024
+Camino Truncado;17;Arizul;3,25;2025;57.224;Uva;Camino Truncado 17 2025
+Camino Truncado;3;Sultanina;4,05;2013;65.790;Uva;Camino Truncado 3 2013
+Camino Truncado;3;Sultanina;4,05;2014;11.900;Uva;Camino Truncado 3 2014
+Camino Truncado;3;Sultanina;4,05;2015;80.830;Uva;Camino Truncado 3 2015
+Camino Truncado;3;Sultanina;4,05;2016;6.000;Uva;Camino Truncado 3 2016
+Camino Truncado;3;Sultanina;4,05;2017;23.242;Uva;Camino Truncado 3 2017
+Camino Truncado;3;Sultanina;4,05;2018;30.269;Uva;Camino Truncado 3 2018
+Camino Truncado;3;Sultanina;4,05;2019;54.097;Uva;Camino Truncado 3 2019
+Camino Truncado;3;Sultanina;4,05;2020;14.906;Uva;Camino Truncado 3 2020
+Camino Truncado;3;Sultanina;4,05;2021;30.943;Uva;Camino Truncado 3 2021
+Camino Truncado;3;Sultanina;4,05;2023;111.975;Uva;Camino Truncado 3 2023
+Camino Truncado;3;Sultanina;4,05;2024;0;Uva;Camino Truncado 3 2024
+Camino Truncado;6;Sultanina;3,65;2013;69.824;Uva;Camino Truncado 6 2013
+Camino Truncado;6;Sultanina;3,65;2015;73.180;Uva;Camino Truncado 6 2015
+Camino Truncado;6;Sultanina;3,65;2016;48.240;Uva;Camino Truncado 6 2016
+Camino Truncado;6;Sultanina;3,65;2017;27.240;Uva;Camino Truncado 6 2017
+Camino Truncado;6;Sultanina;3,65;2018;27.901;Uva;Camino Truncado 6 2018
+Camino Truncado;6;Sultanina;3,65;2019;54.875;Uva;Camino Truncado 6 2019
+Camino Truncado;6;Sultanina;3,65;2020;23.637;Uva;Camino Truncado 6 2020
+Camino Truncado;6;Sultanina;3,65;2021;37.765;Uva;Camino Truncado 6 2021
+Camino Truncado;7;Sultanina;4,81;2013;77.964;Uva;Camino Truncado 7 2013
+Camino Truncado;7;Sultanina;4,81;2014;940;Uva;Camino Truncado 7 2014
+Camino Truncado;7;Sultanina;4,81;2015;77.580;Uva;Camino Truncado 7 2015
+Camino Truncado;7;Sultanina;4,81;2016;32.240;Uva;Camino Truncado 7 2016
+Camino Truncado;7;Sultanina;4,81;2017;18.438;Uva;Camino Truncado 7 2017
+Camino Truncado;7;Sultanina;4,81;2018;28.483;Uva;Camino Truncado 7 2018
+Camino Truncado;7;Sultanina;4,81;2019;49.344;Uva;Camino Truncado 7 2019
+Camino Truncado;7;Sultanina;4,81;2020;25.240;Uva;Camino Truncado 7 2020
+Camino Truncado;7;Sultanina;4,81;2021;51.236;Uva;Camino Truncado 7 2021
+Camino Truncado;9;Sultanina;2,73;2013;32.912;Uva;Camino Truncado 9 2013
+Camino Truncado;9;Sultanina;2,73;2014;21.300;Uva;Camino Truncado 9 2014
+Camino Truncado;9;Sultanina;2,73;2015;76.770;Uva;Camino Truncado 9 2015
+Camino Truncado;9;Sultanina;2,73;2016;63.750;Uva;Camino Truncado 9 2016
+Camino Truncado;9;Sultanina;2,73;2017;13.880;Uva;Camino Truncado 9 2017
+Camino Truncado;9;Sultanina;2,73;2018;46.684;Uva;Camino Truncado 9 2018
+Camino Truncado;9;Sultanina;2,73;2019;47.389;Uva;Camino Truncado 9 2019
+Camino Truncado;9;Sultanina;2,73;2020;34.721;Uva;Camino Truncado 9 2020
+Camino Truncado;9;Sultanina;2,73;2021;86.056;Uva;Camino Truncado 9 2021
+Camino Truncado;9;Sultanina;2,73;2022;3.190;Uva;Camino Truncado 9 2022
+Camino Truncado;9;Sultanina;2,73;2023;30.180;Uva;Camino Truncado 9 2023
+Camino Truncado;9;Sultanina;2,73;2024;31.785;Uva;Camino Truncado 9 2024
+Camino Truncado;17;Arizul;3,25;2025;16.792;Pasa;Camino Truncado 17 2025
+Camino Truncado;51;Sultanina;3,05;2013;65.300;Uva;Camino Truncado 51 2013
+Camino Truncado;51;Sultanina;3,05;2014;6.300;Uva;Camino Truncado 51 2014
+Camino Truncado;51;Sultanina;3,05;2015;72.915;Uva;Camino Truncado 51 2015
+Camino Truncado;51;Sultanina;3,05;2016;73.000;Uva;Camino Truncado 51 2016
+Camino Truncado;51;Sultanina;3,05;2017;29.328;Uva;Camino Truncado 51 2017
+Camino Truncado;51;Sultanina;3,05;2018;84.362;Uva;Camino Truncado 51 2018
+Camino Truncado;51;Sultanina;3,05;2019;60.560;Uva;Camino Truncado 51 2019
+Camino Truncado;51;Sultanina;3,05;2020;43.393;Uva;Camino Truncado 51 2020
+Camino Truncado;51;Sultanina;3,05;2021;97.571;Uva;Camino Truncado 51 2021
+Camino Truncado;51;Sultanina;3,05;2022;23.430;Uva;Camino Truncado 51 2022
+Camino Truncado;51;Sultanina;3,05;2023;47.100;Uva;Camino Truncado 51 2023
+Camino Truncado;51;Sultanina;3,05;2024;71.380;Uva;Camino Truncado 51 2024
+Camino Truncado;18;Arizul;2,05;2025;61.360;Uva;Camino Truncado 18 2025
+Camino Truncado;14;Superior;2,99;2013;44.153;Uva;Camino Truncado 14 2013
+Camino Truncado;14;Superior;2,99;2015;85.572;Uva;Camino Truncado 14 2015
+Camino Truncado;14;Superior;2,99;2016;57.340;Uva;Camino Truncado 14 2016
+Camino Truncado;14;Superior;2,99;2017;9.210;Uva;Camino Truncado 14 2017
+Camino Truncado;14;Superior;2,99;2018;53.917;Uva;Camino Truncado 14 2018
+Camino Truncado;14;Superior;2,99;2019;56.370;Uva;Camino Truncado 14 2019
+Camino Truncado;14;Superior;2,99;2020;26.217;Uva;Camino Truncado 14 2020
+Camino Truncado;14;Superior;2,99;2021;44.425;Uva;Camino Truncado 14 2021
+Camino Truncado;14;Superior;2,99;2022;50.025;Uva;Camino Truncado 14 2022
+Camino Truncado;14;Superior;2,99;2023;37.840;Uva;Camino Truncado 14 2023
+Camino Truncado;14;Superior;2,99;2024;48.790;Uva;Camino Truncado 14 2024
+Camino Truncado;18;Arizul;2,05;2025;15.692;Pasa;Camino Truncado 18 2025
+Puente Alto;1;Selma;5,13;2014;63.423;Uva;Puente Alto 1 2014
+Puente Alto;1;Selma;5,13;2015;91.872;Uva;Puente Alto 1 2015
+Puente Alto;1;Selma;5,13;2016;176.261;Uva;Puente Alto 1 2016
+Puente Alto;1;Selma;5,13;2017;34.081;Uva;Puente Alto 1 2017
+Puente Alto;1;Selma;5,13;2018;138.723;Uva;Puente Alto 1 2018
+Puente Alto;1;Selma;5,13;2019;116.984;Uva;Puente Alto 1 2019
+Puente Alto;1;Selma;5,13;2020;59.041;Uva;Puente Alto 1 2020
+Puente Alto;1;Selma;5,13;2021;78.373;Uva;Puente Alto 1 2021
+Puente Alto;1;Selma;5,13;2023;3.850;Uva;Puente Alto 1 2023
+Puente Alto;1;Selma;5,13;2024;15.720;Uva;Puente Alto 1 2024
+Puente Alto;1;Selma;5,13;2025;46.317;Uva;Puente Alto 1 2025
+Puente Alto;2;Fiesta;0,38;2014;7.194;Uva;Puente Alto 2 2014
+Puente Alto;2;Fiesta;0,38;2015;4.080;Uva;Puente Alto 2 2015
+Puente Alto;2;Fiesta;0,38;2016;8.340;Uva;Puente Alto 2 2016
+Puente Alto;2;Fiesta;0,38;2017;7.321;Uva;Puente Alto 2 2017
+Puente Alto;2;Fiesta;0,38;2020;4.350;Uva;Puente Alto 2 2020
+Puente Alto;2;Fiesta;0,38;2021;7.927;Uva;Puente Alto 2 2021
+Puente Alto;2;Fiesta;0,38;2022;8.691;Uva;Puente Alto 2 2022
+Puente Alto;5;Arizul;2,32;2014;24.723;Uva;Puente Alto 5 2014
+Puente Alto;5;Arizul;2,32;2015;34.300;Uva;Puente Alto 5 2015
+Puente Alto;5;Arizul;2,32;2016;40.870;Uva;Puente Alto 5 2016
+Puente Alto;5;Arizul;2,32;2017;67.560;Uva;Puente Alto 5 2017
+Puente Alto;5;Arizul;2,32;2018;69.716;Uva;Puente Alto 5 2018
+Puente Alto;5;Arizul;2,32;2019;35.940;Uva;Puente Alto 5 2019
+Puente Alto;5;Arizul;2,32;2020;37.722;Uva;Puente Alto 5 2020
+Puente Alto;5;Arizul;2,32;2021;77.126;Uva;Puente Alto 5 2021
+Puente Alto;5;Arizul;2,32;2022;67.285;Uva;Puente Alto 5 2022
+Puente Alto;5;Arizul;2,32;2023;6.237;Uva;Puente Alto 5 2023
+Puente Alto;5;Arizul;2,32;2024;73.406;Uva;Puente Alto 5 2024
+Puente Alto;1;Selma;5,13;2025;12.760;Pasa;Puente Alto 1 2025
+Puente Alto;6;Arizul;3,5;2014;39.896;Uva;Puente Alto 6 2014
+Puente Alto;6;Arizul;3,5;2015;73.029;Uva;Puente Alto 6 2015
+Puente Alto;6;Arizul;3,5;2016;103.240;Uva;Puente Alto 6 2016
+Puente Alto;6;Arizul;3,5;2017;133.840;Uva;Puente Alto 6 2017
+Puente Alto;6;Arizul;3,5;2018;122.567;Uva;Puente Alto 6 2018
+Puente Alto;6;Arizul;3,5;2019;70.933;Uva;Puente Alto 6 2019
+Puente Alto;6;Arizul;3,5;2020;30.599;Uva;Puente Alto 6 2020
+Puente Alto;6;Arizul;3,5;2021;116.565;Uva;Puente Alto 6 2021
+Puente Alto;6;Arizul;3,5;2022;101.170;Uva;Puente Alto 6 2022
+Puente Alto;6;Arizul;3,5;2023;33.088;Uva;Puente Alto 6 2023
+Puente Alto;6;Arizul;3,5;2024;167.545;Uva;Puente Alto 6 2024
+Puente Alto;2;Flame;5,13;2025;159.850;Uva;Puente Alto 2 2025
+Puente Alto;7;Selma;1,15;2014;42.184;Uva;Puente Alto 7 2014
+Puente Alto;7;Selma;1,15;2015;25.275;Uva;Puente Alto 7 2015
+Puente Alto;7;Selma;1,15;2016;7.267;Uva;Puente Alto 7 2016
+Puente Alto;7;Selma;1,15;2017;24.279;Uva;Puente Alto 7 2017
+Puente Alto;7;Selma;1,15;2018;13.526;Uva;Puente Alto 7 2018
+Puente Alto;7;Selma;1,15;2019;6.632;Uva;Puente Alto 7 2019
+Puente Alto;7;Selma;1,15;2020;0;Uva;Puente Alto 7 2020
+Puente Alto;7;Selma;1,15;2021;8.801;Uva;Puente Alto 7 2021
+Puente Alto;7;Selma;1,15;2022;25.954;Uva;Puente Alto 7 2022
+Puente Alto;7;Selma;1,15;2023;9.464;Uva;Puente Alto 7 2023
+Puente Alto;7;Selma;1,15;2024;19.990;Uva;Puente Alto 7 2024
+Puente Alto;2;Flame;5,13;2025;45.988;Pasa;Puente Alto 2 2025
+La Chimbera;20;Fiesta;4,4;2013;6.320;Uva;La Chimbera 20 2013
+La Chimbera;20;Fiesta;4,4;2014;18.317;Uva;La Chimbera 20 2014
+La Chimbera;20;Fiesta;4,4;2015;69.512;Uva;La Chimbera 20 2015
+La Chimbera;20;Fiesta;4,4;2016;26.594;Uva;La Chimbera 20 2016
+La Chimbera;20;Fiesta;4,4;2017;34.729;Uva;La Chimbera 20 2017
+La Chimbera;20;Fiesta;4,4;2018;59.465;Uva;La Chimbera 20 2018
+La Chimbera;20;Fiesta;4,4;2019;25.589;Uva;La Chimbera 20 2019
+La Chimbera;20;Fiesta;4,4;2020;59.055;Uva;La Chimbera 20 2020
+La Chimbera;20;Fiesta;4,4;2021;303.486;Uva;La Chimbera 20 2021
+La Chimbera;20;Fiesta;4,4;2022;98.445;Uva;La Chimbera 20 2022
+La Chimbera;20;Fiesta;4,4;2023;50.175;Uva;La Chimbera 20 2023
+La Chimbera;20;Fiesta;4,4;2024;162.600;Uva;La Chimbera 20 2024
+La Chimbera;15;Flame;3,69;2025;152.880;Uva;La Chimbera 15 2025
+La Chimbera;22;Fiesta;2,63;2013;4.355;Uva;La Chimbera 22 2013
+La Chimbera;22;Fiesta;2,63;2014;35.218;Uva;La Chimbera 22 2014
+La Chimbera;22;Fiesta;2,63;2015;68.719;Uva;La Chimbera 22 2015
+La Chimbera;22;Fiesta;2,63;2016;35.724;Uva;La Chimbera 22 2016
+La Chimbera;22;Fiesta;2,63;2017;26.545;Uva;La Chimbera 22 2017
+La Chimbera;22;Fiesta;2,63;2018;67.717;Uva;La Chimbera 22 2018
+La Chimbera;22;Fiesta;2,63;2019;49.911;Uva;La Chimbera 22 2019
+La Chimbera;22;Fiesta;2,63;2020;50.860;Uva;La Chimbera 22 2020
+La Chimbera;22;Fiesta;2,63;2021;186.748;Uva;La Chimbera 22 2021
+La Chimbera;22;Fiesta;2,63;2022;61.178;Uva;La Chimbera 22 2022
+La Chimbera;22;Fiesta;2,63;2023;65.295;Uva;La Chimbera 22 2023
+La Chimbera;22;Fiesta;2,63;2024;98.400;Uva;La Chimbera 22 2024
+La Chimbera;15;Flame;3,69;2025;37.090;Pasa;La Chimbera 15 2025
+La Chimbera;26;Arizul;2,88;2014;1.950;Uva;La Chimbera 26 2014
+La Chimbera;26;Arizul;2,88;2015;19.441;Uva;La Chimbera 26 2015
+La Chimbera;26;Arizul;2,88;2016;25.360;Uva;La Chimbera 26 2016
+La Chimbera;26;Arizul;2,88;2017;18.822;Uva;La Chimbera 26 2017
+La Chimbera;26;Arizul;2,88;2018;24.445;Uva;La Chimbera 26 2018
+La Chimbera;26;Arizul;2,88;2019;56.985;Uva;La Chimbera 26 2019
+La Chimbera;26;Arizul;2,88;2020;71.303;Uva;La Chimbera 26 2020
+La Chimbera;26;Arizul;2,88;2021;98.077;Uva;La Chimbera 26 2021
+La Chimbera;26;Arizul;2,88;2022;12.735;Uva;La Chimbera 26 2022
+La Chimbera;26;Arizul;2,88;2023;99.296;Uva;La Chimbera 26 2023
+La Chimbera;26;Arizul;2,88;2024;133.200;Uva;La Chimbera 26 2024
+La Chimbera;16;Flame;4,4;2025;182.950;Uva;La Chimbera 16 2025
+La Chimbera;27;Arizul;2,86;2014;5.280;Uva;La Chimbera 27 2014
+La Chimbera;27;Arizul;2,86;2015;36.869;Uva;La Chimbera 27 2015
+La Chimbera;27;Arizul;2,86;2016;62.720;Uva;La Chimbera 27 2016
+La Chimbera;27;Arizul;2,86;2017;36.727;Uva;La Chimbera 27 2017
+La Chimbera;27;Arizul;2,86;2018;24.892;Uva;La Chimbera 27 2018
+La Chimbera;27;Arizul;2,86;2019;67.838;Uva;La Chimbera 27 2019
+La Chimbera;27;Arizul;2,86;2020;68.475;Uva;La Chimbera 27 2020
+La Chimbera;27;Arizul;2,86;2021;132.148;Uva;La Chimbera 27 2021
+La Chimbera;27;Arizul;2,86;2022;45.547;Uva;La Chimbera 27 2022
+La Chimbera;27;Arizul;2,86;2023;117.771;Uva;La Chimbera 27 2023
+La Chimbera;27;Arizul;2,86;2024;94.500;Uva;La Chimbera 27 2024
+La Chimbera;16;Flame;4,4;2025;57.818;Pasa;La Chimbera 16 2025
+El Espejo II;14;Fiesta;2,28;2023;30.225;Uva;El Espejo II 14 2023
+El Espejo II;14;Fiesta;2,28;2024;57.000;Uva;El Espejo II 14 2024
+El Espejo II;14;Fiesta;2,28;2025;58.014;Uva;El Espejo II 14 2025
+El Espejo II;15;Fiesta;3,44;2023;48.750;Uva;El Espejo II 15 2023
+El Espejo II;15;Fiesta;3,44;2024;84.600;Uva;El Espejo II 15 2024
+El Espejo II;15;Fiesta;3,44;2025;89.720;Uva;El Espejo II 15 2025
+El Espejo II;16;Fiesta;4,9;2023;35.750;Uva;El Espejo II 16 2023
+El Espejo II;16;Fiesta;4,9;2024;65.700;Uva;El Espejo II 16 2024
+El Espejo II;16;Fiesta;4,9;2025;96.820;Uva;El Espejo II 16 2025
+El Espejo II;17;Fiesta;3,43;2022;8.850;Uva;El Espejo II 17 2022
+El Espejo II;17;Fiesta;3,43;2023;30.875;Uva;El Espejo II 17 2023
+El Espejo II;17;Fiesta;3,43;2024;37.200;Uva;El Espejo II 17 2024
+El Espejo II;17;Fiesta;3,43;2025;69.000;Uva;El Espejo II 17 2025
+El Espejo II;18;Fiesta;2,12;2023;18.525;Uva;El Espejo II 18 2023
+El Espejo II;18;Fiesta;2,12;2024;44.700;Uva;El Espejo II 18 2024
+El Espejo II;18;Fiesta;2,12;2025;41.852;Uva;El Espejo II 18 2025
+El Espejo II;19;Fiesta;3,59;2023;14.625;Uva;El Espejo II 19 2023
+El Espejo II;19;Fiesta;3,59;2024;42.600;Uva;El Espejo II 19 2024
+El Espejo II;19;Fiesta;3,59;2025;59.572;Uva;El Espejo II 19 2025
+El Espejo II;20;Fiesta;4,68;2023;20.150;Uva;El Espejo II 20 2023
+El Espejo II;20;Fiesta;4,68;2024;52.200;Uva;El Espejo II 20 2024
+El Espejo II;20;Fiesta;4,68;2025;78.800;Uva;El Espejo II 20 2025
+El Espejo II;21;Fiesta;3,19;2023;8.125;Uva;El Espejo II 21 2023
+El Espejo II;21;Fiesta;3,19;2024;24.000;Uva;El Espejo II 21 2024
+El Espejo II;21;Fiesta;3,19;2025;42.960;Uva;El Espejo II 21 2025
+El Espejo II;1;Selma;5,54;2022;33.300;Uva;El Espejo II 1 2022
+El Espejo II;1;Selma;5,54;2023;123.500;Uva;El Espejo II 1 2023
+El Espejo II;1;Selma;5,54;2024;96.766;Uva;El Espejo II 1 2024
+El Espejo II;1;Selma;5,54;2025;156.200;Uva;El Espejo II 1 2025
+El Espejo II;2;Selma;5,54;2022;41.400;Uva;El Espejo II 2 2022
+El Espejo II;2;Selma;5,54;2023;116.675;Uva;El Espejo II 2 2023
+El Espejo II;2;Selma;5,54;2024;136.320;Uva;El Espejo II 2 2024
+El Espejo II;2;Selma;5,54;2025;153.920;Uva;El Espejo II 2 2025
+El Espejo II;3;Selma;5,54;2022;7.500;Uva;El Espejo II 3 2022
+El Espejo II;3;Selma;5,54;2023;75.400;Uva;El Espejo II 3 2023
+El Espejo II;3;Selma;5,54;2024;90.166;Uva;El Espejo II 3 2024
+El Espejo II;3;Selma;5,54;2025;128.806;Uva;El Espejo II 3 2025
+El Espejo II;4;Selma;5,54;2022;12.000;Uva;El Espejo II 4 2022
+El Espejo II;4;Selma;5,54;2023;78.975;Uva;El Espejo II 4 2023
+El Espejo II;4;Selma;5,54;2024;73.416;Uva;El Espejo II 4 2024
+El Espejo II;4;Selma;5,54;2025;111.137;Uva;El Espejo II 4 2025
+El Espejo II;5;Selma;5,54;2022;17.400;Uva;El Espejo II 5 2022
+El Espejo II;5;Selma;5,54;2023;85.150;Uva;El Espejo II 5 2023
+El Espejo II;5;Selma;5,54;2024;83.355;Uva;El Espejo II 5 2024
+El Espejo II;5;Selma;5,54;2025;105.680;Uva;El Espejo II 5 2025
+El Espejo II;6;Selma;5,54;2022;19.500;Uva;El Espejo II 6 2022
+El Espejo II;6;Selma;5,54;2023;96.200;Uva;El Espejo II 6 2023
+El Espejo II;6;Selma;5,54;2024;107.473;Uva;El Espejo II 6 2024
+El Espejo II;6;Selma;5,54;2025;124.680;Uva;El Espejo II 6 2025
+El Espejo II;7;Selma;5,54;2023;17.875;Uva;El Espejo II 7 2023
+El Espejo II;7;Selma;5,54;2024;14.400;Uva;El Espejo II 7 2024
+El Espejo II;7;Selma;5,54;2025;52.933;Uva;El Espejo II 7 2025
+El Espejo II;8;Selma;5,54;2022;1.200;Uva;El Espejo II 8 2022
+El Espejo II;8;Selma;5,54;2023;24.700;Uva;El Espejo II 8 2023
+El Espejo II;8;Selma;5,54;2024;28.200;Uva;El Espejo II 8 2024
+El Espejo II;8;Selma;5,54;2025;78.170;Uva;El Espejo II 8 2025
+El Espejo III;22;Fiesta;3,64;2024;2.400;Uva;El Espejo III 22 2024
+El Espejo III;22;Fiesta;3,64;2025;36.800;Uva;El Espejo III 22 2025
+El Espejo III;23;Fiesta;3,64;2024;2.400;Uva;El Espejo III 23 2024
+El Espejo III;22;Fiesta;3,64;2025;8.895;Pasa;El Espejo III 22 2025
+El Espejo III;23;Fiesta;3,64;2025;34.400;Uva;El Espejo III 23 2025
+El Espejo III;23;Fiesta;3,64;2025;8.271;Pasa;El Espejo III 23 2025
+El Espejo III;24;Flame;3,64;2025;9.600;Uva;El Espejo III 24 2025
+El Espejo III;24;Flame;3,64;2025;2.386;Pasa;El Espejo III 24 2025
+El Espejo III;25;Flame;2;2025;4.800;Uva;El Espejo III 25 2025
+El Espejo III;25;Flame;2;2025;1.193;Pasa;El Espejo III 25 2025
+El Espejo III;26;Fiesta;2,8;2025;10.730;Uva;El Espejo III 26 2025
+El Espejo III;26;Fiesta;2,8;2025;3.065;Pasa;El Espejo III 26 2025
+El Espejo III;27;Fiesta;2,85;2025;10.080;Uva;El Espejo III 27 2025
+La Chimbera;23;Fiesta;2,84;2013;1.535;Uva;La Chimbera 23 2013
+La Chimbera;23;Fiesta;2,84;2014;10.402;Uva;La Chimbera 23 2014
+La Chimbera;23;Fiesta;2,84;2015;25.628;Uva;La Chimbera 23 2015
+La Chimbera;23;Fiesta;2,84;2016;1.146;Uva;La Chimbera 23 2016
+La Chimbera;23;Fiesta;2,84;2017;18.447;Uva;La Chimbera 23 2017
+La Chimbera;23;Fiesta;2,84;2018;35.614;Uva;La Chimbera 23 2018
+La Chimbera;23;Fiesta;2,84;2019;12.493;Uva;La Chimbera 23 2019
+La Chimbera;23;Fiesta;2,84;2020;15.879;Uva;La Chimbera 23 2020
+La Chimbera;23;Fiesta;2,84;2021;136.400;Uva;La Chimbera 23 2021
+La Chimbera;23;Fiesta;2,84;2022;3.760;Uva;La Chimbera 23 2022
+La Chimbera;23;Fiesta;2,84;2023;32.500;Uva;La Chimbera 23 2023
+La Chimbera;23;Fiesta;2,84;2024;77.700;Uva;La Chimbera 23 2024
+La Chimbera;17;Flame;2,24;2025;130.550;Uva;La Chimbera 17 2025
+La Chimbera;24;Arizul;2,84;2013;2.935;Uva;La Chimbera 24 2013
+La Chimbera;24;Arizul;2,84;2014;7.060;Uva;La Chimbera 24 2014
+La Chimbera;24;Arizul;2,84;2015;32.670;Uva;La Chimbera 24 2015
+La Chimbera;24;Arizul;2,84;2016;32.425;Uva;La Chimbera 24 2016
+La Chimbera;24;Arizul;2,84;2017;25.861;Uva;La Chimbera 24 2017
+La Chimbera;24;Arizul;2,84;2018;22.585;Uva;La Chimbera 24 2018
+La Chimbera;24;Arizul;2,84;2019;72.662;Uva;La Chimbera 24 2019
+La Chimbera;24;Arizul;2,84;2020;78.700;Uva;La Chimbera 24 2020
+La Chimbera;24;Arizul;2,84;2021;74.312;Uva;La Chimbera 24 2021
+La Chimbera;24;Arizul;2,84;2022;26.536;Uva;La Chimbera 24 2022
+La Chimbera;24;Arizul;2,84;2023;87.948;Uva;La Chimbera 24 2023
+La Chimbera;24;Arizul;2,84;2024;140.933;Uva;La Chimbera 24 2024
+La Chimbera;17;Flame;2,24;2025;28.027;Pasa;La Chimbera 17 2025
+La Chimbera;25;Arizul;2,84;2013;4.997;Uva;La Chimbera 25 2013
+La Chimbera;25;Arizul;2,84;2014;13.392;Uva;La Chimbera 25 2014
+La Chimbera;25;Arizul;2,84;2015;41.006;Uva;La Chimbera 25 2015
+La Chimbera;25;Arizul;2,84;2016;36.430;Uva;La Chimbera 25 2016
+La Chimbera;25;Arizul;2,84;2017;36.235;Uva;La Chimbera 25 2017
+La Chimbera;25;Arizul;2,84;2018;31.642;Uva;La Chimbera 25 2018
+La Chimbera;25;Arizul;2,84;2019;96.741;Uva;La Chimbera 25 2019
+La Chimbera;25;Arizul;2,84;2020;40.377;Uva;La Chimbera 25 2020
+La Chimbera;25;Arizul;2,84;2021;89.366;Uva;La Chimbera 25 2021
+La Chimbera;25;Arizul;2,84;2022;30.010;Uva;La Chimbera 25 2022
+La Chimbera;25;Arizul;2,84;2023;70.210;Uva;La Chimbera 25 2023
+La Chimbera;25;Arizul;2,84;2024;129.300;Uva;La Chimbera 25 2024
+La Chimbera;18;Flame;4,4;2025;199.665;Uva;La Chimbera 18 2025
+La Chimbera;17;Flame;2,24;2013;530;Uva;La Chimbera 17 2013
+La Chimbera;17;Flame;2,24;2014;4.845;Uva;La Chimbera 17 2014
+La Chimbera;17;Flame;2,24;2015;31.334;Uva;La Chimbera 17 2015
+La Chimbera;17;Flame;2,24;2016;50.930;Uva;La Chimbera 17 2016
+La Chimbera;17;Flame;2,24;2017;26.719;Uva;La Chimbera 17 2017
+La Chimbera;17;Flame;2,24;2018;33.155;Uva;La Chimbera 17 2018
+La Chimbera;17;Flame;2,24;2019;44.625;Uva;La Chimbera 17 2019
+La Chimbera;17;Flame;2,24;2020;70.395;Uva;La Chimbera 17 2020
+La Chimbera;17;Flame;2,24;2021;143.878;Uva;La Chimbera 17 2021
+La Chimbera;17;Flame;2,24;2022;40.830;Uva;La Chimbera 17 2022
+La Chimbera;17;Flame;2,24;2023;96.056;Uva;La Chimbera 17 2023
+La Chimbera;17;Flame;2,24;2024;104.460;Uva;La Chimbera 17 2024
+La Chimbera;18;Flame;4,4;2025;40.724;Pasa;La Chimbera 18 2025
+La Chimbera;19;Flame;2,24;2013;3.572;Uva;La Chimbera 19 2013
+La Chimbera;19;Flame;2,24;2014;3.440;Uva;La Chimbera 19 2014
+La Chimbera;19;Flame;2,24;2015;22.146;Uva;La Chimbera 19 2015
+La Chimbera;19;Flame;2,24;2016;38.690;Uva;La Chimbera 19 2016
+La Chimbera;19;Flame;2,24;2017;23.247;Uva;La Chimbera 19 2017
+La Chimbera;19;Flame;2,24;2018;30.717;Uva;La Chimbera 19 2018
+La Chimbera;19;Flame;2,24;2019;32.671;Uva;La Chimbera 19 2019
+La Chimbera;19;Flame;2,24;2020;99.641;Uva;La Chimbera 19 2020
+La Chimbera;19;Flame;2,24;2021;130.177;Uva;La Chimbera 19 2021
+La Chimbera;19;Flame;2,24;2022;68.390;Uva;La Chimbera 19 2022
+La Chimbera;19;Flame;2,24;2023;82.867;Uva;La Chimbera 19 2023
+La Chimbera;19;Flame;2,24;2024;127.640;Uva;La Chimbera 19 2024
+La Chimbera;19;Flame;2,24;2025;106.600;Uva;La Chimbera 19 2025
+La Chimbera;21;Flame;2,24;2014;840;Uva;La Chimbera 21 2014
+La Chimbera;21;Flame;2,24;2015;24.852;Uva;La Chimbera 21 2015
+La Chimbera;21;Flame;2,24;2016;32.339;Uva;La Chimbera 21 2016
+La Chimbera;21;Flame;2,24;2017;16.607;Uva;La Chimbera 21 2017
+La Chimbera;21;Flame;2,24;2018;55.486;Uva;La Chimbera 21 2018
+La Chimbera;21;Flame;2,24;2019;33.200;Uva;La Chimbera 21 2019
+La Chimbera;21;Flame;2,24;2020;96.153;Uva;La Chimbera 21 2020
+La Chimbera;21;Flame;2,24;2021;138.933;Uva;La Chimbera 21 2021
+La Chimbera;21;Flame;2,24;2022;57.765;Uva;La Chimbera 21 2022
+La Chimbera;21;Flame;2,24;2023;103.221;Uva;La Chimbera 21 2023
+La Chimbera;21;Flame;2,24;2024;139.200;Uva;La Chimbera 21 2024
+La Chimbera;19;Flame;2,24;2025;27.845;Pasa;La Chimbera 19 2025
+Puente Alto;2;Flame;4,75;2014;7.194;Uva;Puente Alto 2 2014
+Puente Alto;2;Flame;4,75;2015;4.080;Uva;Puente Alto 2 2015
+Puente Alto;2;Flame;4,75;2016;8.340;Uva;Puente Alto 2 2016
+Puente Alto;2;Flame;4,75;2017;7.321;Uva;Puente Alto 2 2017
+Puente Alto;2;Flame;5,13;2018;198.421;Uva;Puente Alto 2 2018
+Puente Alto;2;Flame;5,13;2019;75.375;Uva;Puente Alto 2 2019
+Puente Alto;2;Flame;4,75;2020;4.350;Uva;Puente Alto 2 2020
+Puente Alto;2;Flame;4,75;2021;7.927;Uva;Puente Alto 2 2021
+Puente Alto;2;Flame;4,75;2022;8.691;Uva;Puente Alto 2 2022
+Puente Alto;2;Flame;5,13;2023;102.431;Uva;Puente Alto 2 2023
+Puente Alto;2;Flame;5,13;2024;111.205;Uva;Puente Alto 2 2024
+Puente Alto;3;Flame;5,11;2025;156.214;Uva;Puente Alto 3 2025
+Puente Alto;3;Flame;5,11;2014;8.238;Uva;Puente Alto 3 2014
+Puente Alto;3;Flame;5,11;2017;3.307;Uva;Puente Alto 3 2017
+Puente Alto;3;Flame;5,11;2018;33.099;Uva;Puente Alto 3 2018
+Puente Alto;3;Flame;5,11;2019;46.570;Uva;Puente Alto 3 2019
+Puente Alto;3;Flame;5,11;2020;125.225;Uva;Puente Alto 3 2020
+Puente Alto;3;Flame;5,11;2021;132.352;Uva;Puente Alto 3 2021
+Puente Alto;3;Flame;5,11;2022;199.207;Uva;Puente Alto 3 2022
+Puente Alto;3;Flame;5,11;2023;56.197;Uva;Puente Alto 3 2023
+Puente Alto;3;Flame;5,11;2024;196.205;Uva;Puente Alto 3 2024
+Puente Alto;3;Flame;5,11;2025;60.573;Pasa;Puente Alto 3 2025
+Puente Alto;4;Flame;4,44;2014;4.011;Uva;Puente Alto 4 2014
+Puente Alto;4;Flame;4,44;2016;2.810;Uva;Puente Alto 4 2016
+Puente Alto;4;Flame;4,44;2017;16.070;Uva;Puente Alto 4 2017
+Puente Alto;4;Flame;4,44;2018;41.359;Uva;Puente Alto 4 2018
+Puente Alto;4;Flame;4,44;2019;33.010;Uva;Puente Alto 4 2019
+Puente Alto;4;Flame;4,44;2020;55.854;Uva;Puente Alto 4 2020
+Puente Alto;4;Flame;4,44;2021;137.969;Uva;Puente Alto 4 2021
+Puente Alto;4;Flame;4,44;2022;125.655;Uva;Puente Alto 4 2022
+Puente Alto;4;Flame;4,44;2023;52.583;Uva;Puente Alto 4 2023
+Puente Alto;4;Flame;4,44;2024;138.404;Uva;Puente Alto 4 2024
+Puente Alto;4;Flame;4,44;2025;102.559;Uva;Puente Alto 4 2025
+La Chimbera;15;Flame;3,69;2013;3.407;Uva;La Chimbera 15 2013
+La Chimbera;15;Flame;3,69;2014;35.063;Uva;La Chimbera 15 2014
+La Chimbera;15;Flame;3,69;2015;51.781;Uva;La Chimbera 15 2015
+La Chimbera;15;Flame;3,69;2016;70.660;Uva;La Chimbera 15 2016
+La Chimbera;15;Flame;3,69;2017;15.753;Uva;La Chimbera 15 2017
+La Chimbera;15;Flame;3,69;2018;99.475;Uva;La Chimbera 15 2018
+La Chimbera;15;Flame;3,69;2019;64.798;Uva;La Chimbera 15 2019
+La Chimbera;15;Flame;3,69;2020;153.644;Uva;La Chimbera 15 2020
+La Chimbera;15;Flame;3,69;2021;71.131;Uva;La Chimbera 15 2021
+La Chimbera;15;Flame;3,69;2022;5.795;Uva;La Chimbera 15 2022
+La Chimbera;15;Flame;3,69;2023;136.308;Uva;La Chimbera 15 2023
+La Chimbera;15;Flame;3,69;2024;152.182;Uva;La Chimbera 15 2024
+La Chimbera;20;Fiesta;4,4;2025;121.200;Uva;La Chimbera 20 2025
+La Chimbera;16;Flame;4,4;2013;9.084;Uva;La Chimbera 16 2013
+La Chimbera;16;Flame;4,4;2014;43.915;Uva;La Chimbera 16 2014
+La Chimbera;16;Flame;4,4;2015;100.285;Uva;La Chimbera 16 2015
+La Chimbera;16;Flame;4,4;2016;127.820;Uva;La Chimbera 16 2016
+La Chimbera;16;Flame;4,4;2017;64.071;Uva;La Chimbera 16 2017
+La Chimbera;16;Flame;4,4;2018;78.752;Uva;La Chimbera 16 2018
+La Chimbera;16;Flame;4,4;2019;54.230;Uva;La Chimbera 16 2019
+La Chimbera;16;Flame;4,4;2020;191.231;Uva;La Chimbera 16 2020
+La Chimbera;16;Flame;4,4;2021;210.571;Uva;La Chimbera 16 2021
+La Chimbera;16;Flame;4,4;2022;174.185;Uva;La Chimbera 16 2022
+La Chimbera;16;Flame;4,4;2023;184.715;Uva;La Chimbera 16 2023
+La Chimbera;16;Flame;4,4;2024;187.200;Uva;La Chimbera 16 2024
+La Chimbera;20;Fiesta;4,4;2025;26.146;Pasa;La Chimbera 20 2025
+La Chimbera;18;Flame;4,4;2013;3.572;Uva;La Chimbera 18 2013
+La Chimbera;18;Flame;4,4;2014;27.100;Uva;La Chimbera 18 2014
+La Chimbera;18;Flame;4,4;2015;62.802;Uva;La Chimbera 18 2015
+La Chimbera;18;Flame;4,4;2016;68.730;Uva;La Chimbera 18 2016
+La Chimbera;18;Flame;4,4;2017;70.831;Uva;La Chimbera 18 2017
+La Chimbera;18;Flame;4,4;2018;67.809;Uva;La Chimbera 18 2018
+La Chimbera;18;Flame;4,4;2019;33.957;Uva;La Chimbera 18 2019
+La Chimbera;18;Flame;4,4;2020;122.450;Uva;La Chimbera 18 2020
+La Chimbera;18;Flame;4,4;2021;171.855;Uva;La Chimbera 18 2021
+La Chimbera;18;Flame;4,4;2022;29.711;Uva;La Chimbera 18 2022
+La Chimbera;18;Flame;4,4;2023;162.253;Uva;La Chimbera 18 2023
+La Chimbera;18;Flame;4,4;2024;142.160;Uva;La Chimbera 18 2024
+La Chimbera;21;Flame;2,24;2025;109.760;Uva;La Chimbera 21 2025
+El Espejo I;1;Flame;3,13;2022;62.400;Uva;El Espejo I 1 2022
+El Espejo I;1;Flame;3,13;2023;102.700;Uva;El Espejo I 1 2023
+El Espejo I;1;Flame;3,13;2024;86.242;Uva;El Espejo I 1 2024
+El Espejo I;1;Flame;3,13;2025;117.160;Uva;El Espejo I 1 2025
+El Espejo I;2;Flame;2,85;2022;30.000;Uva;El Espejo I 2 2022
+El Espejo I;2;Flame;2,85;2023;91.975;Uva;El Espejo I 2 2023
+El Espejo I;2;Flame;2,85;2024;77.800;Uva;El Espejo I 2 2024
+El Espejo I;2;Flame;2,85;2025;140.120;Uva;El Espejo I 2 2025
+El Espejo I;3;Flame;6,31;2023;1.950;Uva;El Espejo I 3 2023
+El Espejo I;3;Flame;6,31;2024;0;Uva;El Espejo I 3 2024
+El Espejo I;3;Flame;6,31;2025;31.040;Uva;El Espejo I 3 2025
+El Espejo I;4;Flame;6,31;2022;57.000;Uva;El Espejo I 4 2022
+El Espejo I;4;Flame;6,31;2023;184.925;Uva;El Espejo I 4 2023
+El Espejo I;4;Flame;6,31;2024;122.100;Uva;El Espejo I 4 2024
+El Espejo I;4;Flame;6,31;2025;214.560;Uva;El Espejo I 4 2025
+El Espejo I;5;Flame;4,58;2023;1.625;Uva;El Espejo I 5 2023
+El Espejo I;5;Flame;4,58;2024;0;Uva;El Espejo I 5 2024
+El Espejo I;5;Flame;4,58;2025;20.160;Uva;El Espejo I 5 2025
+El Espejo I;6;Flame;2,03;2023;650;Uva;El Espejo I 6 2023
+El Espejo I;6;Flame;2,03;2024;0;Uva;El Espejo I 6 2024
+El Espejo I;6;Flame;2,03;2025;12.160;Uva;El Espejo I 6 2025
+El Espejo I;7;Flame;6,01;2022;8.400;Uva;El Espejo I 7 2022
+El Espejo I;7;Flame;6,01;2023;175.175;Uva;El Espejo I 7 2023
+El Espejo I;7;Flame;6,01;2024;158.104;Uva;El Espejo I 7 2024
+El Espejo I;7;Flame;6,01;2025;237.240;Uva;El Espejo I 7 2025
+El Espejo I;8;Flame;4,83;2022;1.800;Uva;El Espejo I 8 2022
+El Espejo I;8;Flame;4,83;2023;81.575;Uva;El Espejo I 8 2023
+El Espejo I;8;Flame;4,83;2024;119.226;Uva;El Espejo I 8 2024
+El Espejo I;8;Flame;4,83;2025;181.880;Uva;El Espejo I 8 2025
+El Espejo I;9;Flame;6,73;2022;25.200;Uva;El Espejo I 9 2022
+El Espejo I;9;Flame;6,73;2023;224.900;Uva;El Espejo I 9 2023
+El Espejo I;9;Flame;6,73;2024;194.750;Uva;El Espejo I 9 2024
+El Espejo I;9;Flame;6,73;2025;263.880;Uva;El Espejo I 9 2025
+El Espejo I;10;Flame;1,64;2023;2.438;Uva;El Espejo I 10 2023
+El Espejo I;10;Flame;1,64;2024;1.600;Uva;El Espejo I 10 2024
+El Espejo I;10;Flame;1,64;2025;17.920;Uva;El Espejo I 10 2025
+El Espejo I;11;Flame;4,07;2023;813;Uva;El Espejo I 11 2023
+El Espejo I;11;Flame;4,07;2024;0;Uva;El Espejo I 11 2024
+El Espejo I;11;Flame;4,07;2025;25.280;Uva;El Espejo I 11 2025
+El Espejo I;12;Flame;2,29;2023;1.788;Uva;El Espejo I 12 2023
+El Espejo I;12;Flame;2,29;2024;0;Uva;El Espejo I 12 2024
+El Espejo I;12;Flame;2,29;2025;30.720;Uva;El Espejo I 12 2025
+El Espejo I;14;Flame;5,11;2023;1.950;Uva;El Espejo I 14 2023
+El Espejo I;14;Flame;5,11;2024;0;Uva;El Espejo I 14 2024
+El Espejo I;14;Flame;5,11;2025;14.720;Uva;El Espejo I 14 2025
+El Espejo II;9;Flame;5,54;2022;31.200;Uva;El Espejo II 9 2022
+El Espejo II;9;Flame;5,54;2023;137.150;Uva;El Espejo II 9 2023
+El Espejo II;9;Flame;5,54;2024;143.155;Uva;El Espejo II 9 2024
+El Espejo II;9;Flame;5,54;2025;190.400;Uva;El Espejo II 9 2025
+El Espejo II;10;Flame;5,54;2022;52.800;Uva;El Espejo II 10 2022
+El Espejo II;10;Flame;5,54;2023;169.650;Uva;El Espejo II 10 2023
+El Espejo II;10;Flame;5,54;2024;133.721;Uva;El Espejo II 10 2024
+El Espejo II;10;Flame;5,54;2025;183.800;Uva;El Espejo II 10 2025
+El Espejo II;11;Flame;5,54;2022;11.400;Uva;El Espejo II 11 2022
+El Espejo II;11;Flame;5,54;2023;101.075;Uva;El Espejo II 11 2023
+El Espejo II;11;Flame;5,54;2024;101.994;Uva;El Espejo II 11 2024
+El Espejo II;11;Flame;5,54;2025;157.120;Uva;El Espejo II 11 2025
+El Espejo II;12;Flame;5,54;2022;18.600;Uva;El Espejo II 12 2022
+El Espejo II;12;Flame;5,54;2023;115.050;Uva;El Espejo II 12 2023
+El Espejo II;12;Flame;5,54;2024;114.450;Uva;El Espejo II 12 2024
+El Espejo II;12;Flame;5,54;2025;179.580;Uva;El Espejo II 12 2025
+El Espejo III;27;Fiesta;2,85;2025;2.879;Pasa;El Espejo III 27 2025
+El Espejo III;28;Fiesta;4,28;2025;20.730;Uva;El Espejo III 28 2025
+El Espejo III;28;Fiesta;4,28;2025;5.921;Pasa;El Espejo III 28 2025
+El Espejo III;29;Flame;2,25;2025;6.720;Uva;El Espejo III 29 2025
+El Espejo III;29;Flame;2,25;2025;1.670;Pasa;El Espejo III 29 2025
+El Espejo III;30;Fiesta;4,32;2025;13.396;Uva;El Espejo III 30 2025
+Camino Truncado;8;Arizul;2,37;2013;11.733;Pasa;Camino Truncado 8 2013
+Camino Truncado;8;Arizul;2,37;2014;6.028;Pasa;Camino Truncado 8 2014
+Camino Truncado;8;Arizul;2,37;2015;11.488;Pasa;Camino Truncado 8 2015
+Camino Truncado;8;Arizul;2,37;2016;9.375;Pasa;Camino Truncado 8 2016
+Camino Truncado;8;Arizul;2,37;2017;6.859;Pasa;Camino Truncado 8 2017
+Camino Truncado;8;Arizul;2,37;2018;9.053;Pasa;Camino Truncado 8 2018
+Camino Truncado;8;Arizul;2,37;2019;28.729;Pasa;Camino Truncado 8 2019
+Camino Truncado;8;Arizul;2,37;2020;11.637;Pasa;Camino Truncado 8 2020
+Camino Truncado;8;Arizul;2,37;2021;26.577;Pasa;Camino Truncado 8 2021
+Camino Truncado;8;Arizul;2,37;2022;4.083;Pasa;Camino Truncado 8 2022
+Camino Truncado;8;Arizul;2,37;2023;7.900;Pasa;Camino Truncado 8 2023
+Camino Truncado;8;Arizul;2,37;2024;10.495;Pasa;Camino Truncado 8 2024
+Camino Truncado;19;Arizul;1,298;2025;28.520;Uva;Camino Truncado 19 2025
+Camino Truncado;12;Arizul;2,54;2013;11.340;Pasa;Camino Truncado 12 2013
+Camino Truncado;12;Arizul;2,54;2014;16.738;Pasa;Camino Truncado 12 2014
+Camino Truncado;12;Arizul;2,54;2015;9.725;Pasa;Camino Truncado 12 2015
+Camino Truncado;12;Arizul;2,54;2016;16.178;Pasa;Camino Truncado 12 2016
+Camino Truncado;12;Arizul;2,54;2017;16.200;Pasa;Camino Truncado 12 2017
+Camino Truncado;12;Arizul;2,54;2018;29.950;Pasa;Camino Truncado 12 2018
+Camino Truncado;12;Arizul;2,54;2019;14.345;Pasa;Camino Truncado 12 2019
+Camino Truncado;12;Arizul;2,54;2020;22.890;Pasa;Camino Truncado 12 2020
+Camino Truncado;12;Arizul;2,54;2021;21.532;Pasa;Camino Truncado 12 2021
+Camino Truncado;12;Arizul;2,54;2022;9.924;Pasa;Camino Truncado 12 2022
+Camino Truncado;12;Arizul;2,54;2023;16.765;Pasa;Camino Truncado 12 2023
+Camino Truncado;12;Arizul;2,54;2024;23.485;Pasa;Camino Truncado 12 2024
+Camino Truncado;19;Arizul;1,298;2025;7.350;Pasa;Camino Truncado 19 2025
+Camino Truncado;13;Arizul;1,73;2013;10.838;Pasa;Camino Truncado 13 2013
+Camino Truncado;13;Arizul;1,73;2014;17.491;Pasa;Camino Truncado 13 2014
+Camino Truncado;13;Arizul;1,73;2015;5.730;Pasa;Camino Truncado 13 2015
+Camino Truncado;13;Arizul;1,73;2016;9.945;Pasa;Camino Truncado 13 2016
+Camino Truncado;13;Arizul;1,73;2017;15.755;Pasa;Camino Truncado 13 2017
+Camino Truncado;13;Arizul;1,73;2018;20.771;Pasa;Camino Truncado 13 2018
+Camino Truncado;13;Arizul;1,73;2019;17.746;Pasa;Camino Truncado 13 2019
+Camino Truncado;13;Arizul;1,73;2020;8.469;Pasa;Camino Truncado 13 2020
+Camino Truncado;13;Arizul;1,73;2021;16.027;Pasa;Camino Truncado 13 2021
+Camino Truncado;13;Arizul;1,73;2022;14.683;Pasa;Camino Truncado 13 2022
+Camino Truncado;13;Arizul;1,73;2023;8.923;Pasa;Camino Truncado 13 2023
+Camino Truncado;13;Arizul;1,73;2024;13.622;Pasa;Camino Truncado 13 2024
+Camino Truncado;20;Flame;1,473;2025;48.780;Uva;Camino Truncado 20 2025
+Camino Truncado;15;Arizul;3,44;2013;27.663;Pasa;Camino Truncado 15 2013
+Camino Truncado;15;Arizul;3,44;2014;32.485;Pasa;Camino Truncado 15 2014
+Camino Truncado;15;Arizul;3,44;2015;15.758;Pasa;Camino Truncado 15 2015
+Camino Truncado;15;Arizul;3,44;2017;36.876;Pasa;Camino Truncado 15 2017
+Camino Truncado;15;Arizul;3,44;2018;33.844;Pasa;Camino Truncado 15 2018
+Camino Truncado;15;Arizul;3,44;2019;34.338;Pasa;Camino Truncado 15 2019
+Camino Truncado;15;Arizul;3,44;2020;17.370;Pasa;Camino Truncado 15 2020
+Camino Truncado;15;Arizul;3,44;2021;23.718;Pasa;Camino Truncado 15 2021
+Camino Truncado;15;Arizul;3,44;2022;22.504;Pasa;Camino Truncado 15 2022
+Camino Truncado;15;Arizul;3,44;2023;10.729;Pasa;Camino Truncado 15 2023
+Camino Truncado;15;Arizul;3,44;2024;29.613;Pasa;Camino Truncado 15 2024
+Camino Truncado;20;Flame;1,473;2025;14.238;Pasa;Camino Truncado 20 2025
+Camino Truncado;17;Arizul;3,25;2013;15.050;Pasa;Camino Truncado 17 2013
+Camino Truncado;17;Arizul;3,25;2014;13.068;Pasa;Camino Truncado 17 2014
+Camino Truncado;17;Arizul;3,25;2015;18.170;Pasa;Camino Truncado 17 2015
+Camino Truncado;17;Arizul;3,25;2016;13.603;Pasa;Camino Truncado 17 2016
+Camino Truncado;17;Arizul;3,25;2017;17.107;Pasa;Camino Truncado 17 2017
+Camino Truncado;17;Arizul;3,25;2018;24.544;Pasa;Camino Truncado 17 2018
+Camino Truncado;17;Arizul;3,25;2019;25.818;Pasa;Camino Truncado 17 2019
+Camino Truncado;17;Arizul;3,25;2020;19.367;Pasa;Camino Truncado 17 2020
+Camino Truncado;17;Arizul;3,25;2021;11.727;Pasa;Camino Truncado 17 2021
+Camino Truncado;17;Arizul;3,25;2022;19.574;Pasa;Camino Truncado 17 2022
+Camino Truncado;17;Arizul;3,25;2023;8.365;Pasa;Camino Truncado 17 2023
+Camino Truncado;17;Arizul;3,25;2024;18.568;Pasa;Camino Truncado 17 2024
+Camino Truncado;21;Flame;2,64;2025;85.855;Uva;Camino Truncado 21 2025
+Camino Truncado;18;Arizul;2,05;2017;2.940;Pasa;Camino Truncado 18 2017
+Camino Truncado;18;Arizul;2,05;2018;9.050;Pasa;Camino Truncado 18 2018
+Camino Truncado;18;Arizul;2,05;2019;16.636;Pasa;Camino Truncado 18 2019
+Camino Truncado;18;Arizul;2,05;2020;14.962;Pasa;Camino Truncado 18 2020
+Camino Truncado;18;Arizul;2,05;2021;23.060;Pasa;Camino Truncado 18 2021
+Camino Truncado;18;Arizul;2,05;2022;4.135;Pasa;Camino Truncado 18 2022
+Camino Truncado;18;Arizul;2,05;2023;12.633;Pasa;Camino Truncado 18 2023
+Camino Truncado;18;Arizul;2,05;2024;20.362;Pasa;Camino Truncado 18 2024
+Camino Truncado;21;Flame;2,64;2025;25.886;Pasa;Camino Truncado 21 2025
+Camino Truncado;19;Arizul;1,298;2017;485;Pasa;Camino Truncado 19 2017
+Camino Truncado;19;Arizul;1,298;2018;1.643;Pasa;Camino Truncado 19 2018
+Camino Truncado;19;Arizul;1,298;2019;4.011;Pasa;Camino Truncado 19 2019
+Camino Truncado;19;Arizul;1,298;2020;4.883;Pasa;Camino Truncado 19 2020
+Camino Truncado;19;Arizul;1,298;2021;6.596;Pasa;Camino Truncado 19 2021
+Camino Truncado;19;Arizul;1,298;2022;2.907;Pasa;Camino Truncado 19 2022
+Camino Truncado;19;Arizul;1,298;2023;5.781;Pasa;Camino Truncado 19 2023
+Camino Truncado;19;Arizul;1,298;2024;9.975;Pasa;Camino Truncado 19 2024
+Camino Truncado;22;Fiesta;2,82;2025;156.437;Uva;Camino Truncado 22 2025
+Camino Truncado;52;Arizul;2;2017;5.930;Pasa;Camino Truncado 52 2017
+Camino Truncado;52;Arizul;2;2018;13.782;Pasa;Camino Truncado 52 2018
+Camino Truncado;52;Arizul;2;2019;37.691;Pasa;Camino Truncado 52 2019
+Camino Truncado;52;Arizul;2;2020;16.267;Pasa;Camino Truncado 52 2020
+Camino Truncado;52;Arizul;2;2021;30.423;Pasa;Camino Truncado 52 2021
+Camino Truncado;52;Arizul;2;2022;13.784;Pasa;Camino Truncado 52 2022
+Camino Truncado;52;Arizul;2;2023;16.412;Pasa;Camino Truncado 52 2023
+Camino Truncado;52;Arizul;2;2024;27.582;Pasa;Camino Truncado 52 2024
+Camino Truncado;22;Fiesta;2,82;2025;44.685;Pasa;Camino Truncado 22 2025
+Camino Truncado;54;Arizul;1,08;2017;1.275;Pasa;Camino Truncado 54 2017
+Camino Truncado;54;Arizul;1,08;2018;4.583;Pasa;Camino Truncado 54 2018
+Camino Truncado;54;Arizul;1,08;2019;8.130;Pasa;Camino Truncado 54 2019
+Camino Truncado;54;Arizul;1,08;2020;6.678;Pasa;Camino Truncado 54 2020
+Camino Truncado;54;Arizul;1,08;2021;11.028;Pasa;Camino Truncado 54 2021
+Camino Truncado;54;Arizul;1,08;2022;5.037;Pasa;Camino Truncado 54 2022
+Camino Truncado;54;Arizul;1,08;2023;3.299;Pasa;Camino Truncado 54 2023
+Camino Truncado;54;Arizul;1,08;2024;8.940;Pasa;Camino Truncado 54 2024
+Camino Truncado;23;Flame;1,4528;2025;45.100;Uva;Camino Truncado 23 2025
+Camino Truncado;58;Arizul;2,15;2017;3.195;Pasa;Camino Truncado 58 2017
+Camino Truncado;58;Arizul;2,15;2018;6.210;Pasa;Camino Truncado 58 2018
+Camino Truncado;58;Arizul;2,15;2019;12.829;Pasa;Camino Truncado 58 2019
+Camino Truncado;58;Arizul;2,15;2020;9.734;Pasa;Camino Truncado 58 2020
+Camino Truncado;58;Arizul;2,15;2021;16.134;Pasa;Camino Truncado 58 2021
+Camino Truncado;58;Arizul;2,15;2022;8.919;Pasa;Camino Truncado 58 2022
+Camino Truncado;58;Arizul;2,15;2023;5.972;Pasa;Camino Truncado 58 2023
+Camino Truncado;58;Arizul;2,15;2024;8.602;Pasa;Camino Truncado 58 2024
+Camino Truncado;23;Flame;1,4528;2025;13.242;Pasa;Camino Truncado 23 2025
+Camino Truncado;2;Flame;4,08;2013;3.158;Pasa;Camino Truncado 2 2013
+Camino Truncado;2;Flame;4,08;2014;10.048;Pasa;Camino Truncado 2 2014
+Camino Truncado;2;Flame;4,08;2016;13.390;Pasa;Camino Truncado 2 2016
+Camino Truncado;2;Flame;4,08;2017;12.554;Pasa;Camino Truncado 2 2017
+Camino Truncado;2;Flame;4,08;2018;23.111;Pasa;Camino Truncado 2 2018
+Camino Truncado;2;Flame;4,08;2019;12.911;Pasa;Camino Truncado 2 2019
+Camino Truncado;2;Flame;4,08;2020;17.945;Pasa;Camino Truncado 2 2020
+Camino Truncado;2;Flame;4,08;2021;29.322;Pasa;Camino Truncado 2 2021
+Camino Truncado;2;Flame;4,08;2022;21.110;Pasa;Camino Truncado 2 2022
+Camino Truncado;2;Flame;4,08;2023;2.675;Pasa;Camino Truncado 2 2023
+Camino Truncado;2;Flame;4,08;2024;43.873;Pasa;Camino Truncado 2 2024
+Camino Truncado;51;Sultanina;3,05;2025;43.260;Uva;Camino Truncado 51 2025
+Camino Truncado;4;Flame;3,03;2013;22.835;Pasa;Camino Truncado 4 2013
+Camino Truncado;4;Flame;3,03;2014;3.815;Pasa;Camino Truncado 4 2014
+Camino Truncado;4;Flame;3,03;2015;20.153;Pasa;Camino Truncado 4 2015
+Camino Truncado;4;Flame;3,03;2016;21.273;Pasa;Camino Truncado 4 2016
+Camino Truncado;4;Flame;3,03;2017;19.892;Pasa;Camino Truncado 4 2017
+Camino Truncado;4;Flame;3,03;2018;25.070;Pasa;Camino Truncado 4 2018
+Camino Truncado;4;Flame;3,03;2019;10.250;Pasa;Camino Truncado 4 2019
+Camino Truncado;4;Flame;3,03;2020;25.248;Pasa;Camino Truncado 4 2020
+Camino Truncado;4;Flame;3,03;2021;24.932;Pasa;Camino Truncado 4 2021
+Camino Truncado;4;Flame;3,03;2022;18.319;Pasa;Camino Truncado 4 2022
+Camino Truncado;4;Flame;3,03;2023;11.668;Pasa;Camino Truncado 4 2023
+Camino Truncado;4;Flame;3,03;2024;17.808;Pasa;Camino Truncado 4 2024
+Camino Truncado;51;Sultanina;3,05;2025;18.090;Pasa;Camino Truncado 51 2025
+Camino Truncado;5;Flame;4,21;2013;29.141;Pasa;Camino Truncado 5 2013
+Camino Truncado;5;Flame;4,21;2014;16.395;Pasa;Camino Truncado 5 2014
+Camino Truncado;5;Flame;4,21;2015;28.203;Pasa;Camino Truncado 5 2015
+Camino Truncado;5;Flame;4,21;2016;24.698;Pasa;Camino Truncado 5 2016
+Camino Truncado;5;Flame;4,21;2017;31.818;Pasa;Camino Truncado 5 2017
+Camino Truncado;5;Flame;4,21;2018;39.673;Pasa;Camino Truncado 5 2018
+Camino Truncado;5;Flame;4,21;2019;19.393;Pasa;Camino Truncado 5 2019
+Camino Truncado;5;Flame;4,21;2020;36.739;Pasa;Camino Truncado 5 2020
+Camino Truncado;5;Flame;4,21;2021;29.156;Pasa;Camino Truncado 5 2021
+Camino Truncado;5;Flame;4,21;2022;25.935;Pasa;Camino Truncado 5 2022
+Camino Truncado;5;Flame;4,21;2023;29.263;Pasa;Camino Truncado 5 2023
+Camino Truncado;5;Flame;4,21;2024;38.326;Pasa;Camino Truncado 5 2024
+Camino Truncado;52;Arizul;2;2025;72.100;Uva;Camino Truncado 52 2025
+Camino Truncado;20;Flame;1,473;2017;1.818;Pasa;Camino Truncado 20 2017
+Camino Truncado;20;Flame;1,473;2018;7.735;Pasa;Camino Truncado 20 2018
+Camino Truncado;20;Flame;1,473;2019;4.932;Pasa;Camino Truncado 20 2019
+Camino Truncado;20;Flame;1,473;2020;13.502;Pasa;Camino Truncado 20 2020
+Camino Truncado;20;Flame;1,473;2021;14.380;Pasa;Camino Truncado 20 2021
+Camino Truncado;20;Flame;1,473;2022;1.920;Pasa;Camino Truncado 20 2022
+Camino Truncado;20;Flame;1,473;2023;10.195;Pasa;Camino Truncado 20 2023
+Camino Truncado;20;Flame;1,473;2024;12.935;Pasa;Camino Truncado 20 2024
+Camino Truncado;52;Arizul;2;2025;18.438;Pasa;Camino Truncado 52 2025
+Camino Truncado;21;Flame;2,64;2017;5.585;Pasa;Camino Truncado 21 2017
+Camino Truncado;21;Flame;2,64;2018;17.014;Pasa;Camino Truncado 21 2018
+Camino Truncado;21;Flame;2,64;2019;13.436;Pasa;Camino Truncado 21 2019
+Camino Truncado;21;Flame;2,64;2020;22.552;Pasa;Camino Truncado 21 2020
+Camino Truncado;21;Flame;2,64;2021;22.604;Pasa;Camino Truncado 21 2021
+Camino Truncado;21;Flame;2,64;2022;1.437;Pasa;Camino Truncado 21 2022
+Camino Truncado;21;Flame;2,64;2023;11.653;Pasa;Camino Truncado 21 2023
+Camino Truncado;21;Flame;2,64;2024;24.419;Pasa;Camino Truncado 21 2024
+Camino Truncado;53;Fiesta;2,17;2025;87.565;Uva;Camino Truncado 53 2025
+Camino Truncado;23;Flame;1,4528;2017;2.815;Pasa;Camino Truncado 23 2017
+Camino Truncado;23;Flame;1,4528;2018;8.655;Pasa;Camino Truncado 23 2018
+Camino Truncado;23;Flame;1,4528;2019;6.203;Pasa;Camino Truncado 23 2019
+Camino Truncado;23;Flame;1,4528;2020;13.671;Pasa;Camino Truncado 23 2020
+Camino Truncado;23;Flame;1,4528;2021;16.844;Pasa;Camino Truncado 23 2021
+Camino Truncado;23;Flame;1,4528;2022;2.410;Pasa;Camino Truncado 23 2022
+Camino Truncado;23;Flame;1,4528;2023;12.352;Pasa;Camino Truncado 23 2023
+Camino Truncado;23;Flame;1,4528;2024;8.794;Pasa;Camino Truncado 23 2024
+Camino Truncado;53;Fiesta;2,17;2025;25.174;Pasa;Camino Truncado 53 2025
+Camino Truncado;56;Flame;1,81;2017;403;Pasa;Camino Truncado 56 2017
+Camino Truncado;56;Flame;1,81;2018;1.355;Pasa;Camino Truncado 56 2018
+Camino Truncado;56;Flame;1,81;2019;1.561;Pasa;Camino Truncado 56 2019
+Camino Truncado;56;Flame;1,81;2020;10.594;Pasa;Camino Truncado 56 2020
+Camino Truncado;56;Flame;1,81;2021;14.324;Pasa;Camino Truncado 56 2021
+Camino Truncado;56;Flame;1,81;2022;5.259;Pasa;Camino Truncado 56 2022
+Camino Truncado;56;Flame;1,81;2023;16.062;Pasa;Camino Truncado 56 2023
+Camino Truncado;56;Flame;1,81;2024;7.849;Pasa;Camino Truncado 56 2024
+Camino Truncado;54;Arizul;1,08;2025;28.950;Uva;Camino Truncado 54 2025
+Camino Truncado;57;Flame;0,83;2017;189;Pasa;Camino Truncado 57 2017
+Camino Truncado;57;Flame;0,83;2018;4.496;Pasa;Camino Truncado 57 2018
+Camino Truncado;57;Flame;0,83;2019;2.120;Pasa;Camino Truncado 57 2019
+Camino Truncado;57;Flame;0,83;2020;4.447;Pasa;Camino Truncado 57 2020
+Camino Truncado;57;Flame;0,83;2021;5.728;Pasa;Camino Truncado 57 2021
+Camino Truncado;57;Flame;0,83;2022;3.140;Pasa;Camino Truncado 57 2022
+Camino Truncado;57;Flame;0,83;2023;2.421;Pasa;Camino Truncado 57 2023
+Camino Truncado;57;Flame;0,83;2024;2.577;Pasa;Camino Truncado 57 2024
+Camino Truncado;54;Arizul;1,08;2025;7.574;Pasa;Camino Truncado 54 2025
+Camino Truncado;10;Fiesta;1,9;2017;3.195;Pasa;Camino Truncado 10 2017
+Camino Truncado;10;Fiesta;1,9;2018;7.485;Pasa;Camino Truncado 10 2018
+Camino Truncado;10;Fiesta;1,9;2019;8.185;Pasa;Camino Truncado 10 2019
+Camino Truncado;10;Fiesta;1,9;2020;13.564;Pasa;Camino Truncado 10 2020
+Camino Truncado;10;Fiesta;1,9;2021;30.693;Pasa;Camino Truncado 10 2021
+Camino Truncado;10;Fiesta;1,9;2022;7.321;Pasa;Camino Truncado 10 2022
+Camino Truncado;10;Fiesta;1,9;2023;10.969;Pasa;Camino Truncado 10 2023
+Camino Truncado;10;Fiesta;1,9;2024;23.914;Pasa;Camino Truncado 10 2024
+Camino Truncado;55;Fiesta;2,15;2025;114.786;Uva;Camino Truncado 55 2025
+Camino Truncado;11;Fiesta;2,58;2013;9.339;Pasa;Camino Truncado 11 2013
+Camino Truncado;11;Fiesta;2,58;2014;9.905;Pasa;Camino Truncado 11 2014
+Camino Truncado;11;Fiesta;2,58;2015;14.110;Pasa;Camino Truncado 11 2015
+Camino Truncado;11;Fiesta;2,58;2016;4.395;Pasa;Camino Truncado 11 2016
+Camino Truncado;11;Fiesta;2,58;2017;13.809;Pasa;Camino Truncado 11 2017
+Camino Truncado;11;Fiesta;2,58;2018;19.865;Pasa;Camino Truncado 11 2018
+Camino Truncado;11;Fiesta;2,58;2019;14.759;Pasa;Camino Truncado 11 2019
+Camino Truncado;11;Fiesta;2,58;2020;17.285;Pasa;Camino Truncado 11 2020
+Camino Truncado;11;Fiesta;2,58;2021;19.342;Pasa;Camino Truncado 11 2021
+Camino Truncado;11;Fiesta;2,58;2022;6.407;Pasa;Camino Truncado 11 2022
+Camino Truncado;11;Fiesta;2,58;2023;12.954;Pasa;Camino Truncado 11 2023
+Camino Truncado;11;Fiesta;2,58;2024;23.663;Pasa;Camino Truncado 11 2024
+Camino Truncado;55;Fiesta;2,15;2025;24.719;Pasa;Camino Truncado 55 2025
+Camino Truncado;16;Fiesta;3,33;2013;11.829;Pasa;Camino Truncado 16 2013
+Camino Truncado;16;Fiesta;3,33;2014;12.503;Pasa;Camino Truncado 16 2014
+Camino Truncado;16;Fiesta;3,33;2015;19.485;Pasa;Camino Truncado 16 2015
+Camino Truncado;16;Fiesta;3,33;2016;11.153;Pasa;Camino Truncado 16 2016
+Camino Truncado;16;Fiesta;3,33;2017;16.004;Pasa;Camino Truncado 16 2017
+Camino Truncado;16;Fiesta;3,33;2018;19.928;Pasa;Camino Truncado 16 2018
+Camino Truncado;16;Fiesta;3,33;2019;20.772;Pasa;Camino Truncado 16 2019
+Camino Truncado;16;Fiesta;3,33;2020;17.198;Pasa;Camino Truncado 16 2020
+Camino Truncado;16;Fiesta;3,33;2021;18.238;Pasa;Camino Truncado 16 2021
+Camino Truncado;16;Fiesta;3,33;2022;11.929;Pasa;Camino Truncado 16 2022
+Camino Truncado;16;Fiesta;3,33;2023;19.391;Pasa;Camino Truncado 16 2023
+Camino Truncado;16;Fiesta;3,33;2024;34.059;Pasa;Camino Truncado 16 2024
+Camino Truncado;56;Flame;1,81;2025;42.995;Uva;Camino Truncado 56 2025
+Camino Truncado;22;Fiesta;2,82;2017;5.048;Pasa;Camino Truncado 22 2017
+Camino Truncado;22;Fiesta;2,82;2018;15.310;Pasa;Camino Truncado 22 2018
+Camino Truncado;22;Fiesta;2,82;2019;16.506;Pasa;Camino Truncado 22 2019
+Camino Truncado;22;Fiesta;2,82;2020;17.399;Pasa;Camino Truncado 22 2020
+Camino Truncado;22;Fiesta;2,82;2021;41.915;Pasa;Camino Truncado 22 2021
+Camino Truncado;22;Fiesta;2,82;2022;9.157;Pasa;Camino Truncado 22 2022
+Camino Truncado;22;Fiesta;2,82;2023;13.136;Pasa;Camino Truncado 22 2023
+Camino Truncado;22;Fiesta;2,82;2024;33.309;Pasa;Camino Truncado 22 2024
+Camino Truncado;56;Flame;1,81;2025;14.665;Pasa;Camino Truncado 56 2025
+Camino Truncado;53;Fiesta;2,17;2017;302;Pasa;Camino Truncado 53 2017
+Camino Truncado;53;Fiesta;2,17;2018;4.546;Pasa;Camino Truncado 53 2018
+Camino Truncado;53;Fiesta;2,17;2019;10.287;Pasa;Camino Truncado 53 2019
+Camino Truncado;53;Fiesta;2,17;2020;10.504;Pasa;Camino Truncado 53 2020
+Camino Truncado;53;Fiesta;2,17;2021;27.470;Pasa;Camino Truncado 53 2021
+Camino Truncado;53;Fiesta;2,17;2022;19.600;Pasa;Camino Truncado 53 2022
+Camino Truncado;53;Fiesta;2,17;2023;9.907;Pasa;Camino Truncado 53 2023
+Camino Truncado;53;Fiesta;2,17;2024;27.138;Pasa;Camino Truncado 53 2024
+Camino Truncado;57;Flame;0,83;2025;7.960;Uva;Camino Truncado 57 2025
+Camino Truncado;55;Fiesta;2,15;2019;3.102;Pasa;Camino Truncado 55 2019
+Camino Truncado;55;Fiesta;2,15;2020;9.717;Pasa;Camino Truncado 55 2020
+Camino Truncado;55;Fiesta;2,15;2021;15.981;Pasa;Camino Truncado 55 2021
+Camino Truncado;55;Fiesta;2,15;2022;16.264;Pasa;Camino Truncado 55 2022
+Camino Truncado;55;Fiesta;2,15;2023;9.835;Pasa;Camino Truncado 55 2023
+Camino Truncado;55;Fiesta;2,15;2024;22.660;Pasa;Camino Truncado 55 2024
+Camino Truncado;57;Flame;0,83;2025;2.000;Pasa;Camino Truncado 57 2025
+Camino Truncado;59;Fiesta;0,89;2019;735;Pasa;Camino Truncado 59 2019
+Camino Truncado;59;Fiesta;0,89;2020;1.192;Pasa;Camino Truncado 59 2020
+Camino Truncado;59;Fiesta;0,89;2021;4.668;Pasa;Camino Truncado 59 2021
+Camino Truncado;59;Fiesta;0,89;2022;3.274;Pasa;Camino Truncado 59 2022
+Camino Truncado;59;Fiesta;0,89;2023;4.419;Pasa;Camino Truncado 59 2023
+Camino Truncado;59;Fiesta;0,89;2024;6.521;Pasa;Camino Truncado 59 2024
+Camino Truncado;58;Arizul;2,15;2025;31.708;Uva;Camino Truncado 58 2025
+Camino Truncado;3;Sultanina;4,05;2013;16.448;Pasa;Camino Truncado 3 2013
+Camino Truncado;3;Sultanina;4,05;2014;2.975;Pasa;Camino Truncado 3 2014
+Camino Truncado;3;Sultanina;4,05;2015;20.208;Pasa;Camino Truncado 3 2015
+Camino Truncado;3;Sultanina;4,05;2016;1.500;Pasa;Camino Truncado 3 2016
+Camino Truncado;3;Sultanina;4,05;2017;5.811;Pasa;Camino Truncado 3 2017
+Camino Truncado;3;Sultanina;4,05;2018;7.725;Pasa;Camino Truncado 3 2018
+Camino Truncado;3;Sultanina;4,05;2019;15.779;Pasa;Camino Truncado 3 2019
+Camino Truncado;3;Sultanina;4,05;2020;3.894;Pasa;Camino Truncado 3 2020
+Camino Truncado;3;Sultanina;4,05;2021;8.601;Pasa;Camino Truncado 3 2021
+Camino Truncado;3;Sultanina;4,05;2023;31.794;Pasa;Camino Truncado 3 2023
+Camino Truncado;3;Sultanina;4,05;2024;0;Pasa;Camino Truncado 3 2024
+Camino Truncado;6;Sultanina;3,65;2013;17.456;Pasa;Camino Truncado 6 2013
+Camino Truncado;6;Sultanina;3,65;2015;18.295;Pasa;Camino Truncado 6 2015
+Camino Truncado;6;Sultanina;3,65;2016;12.060;Pasa;Camino Truncado 6 2016
+Camino Truncado;6;Sultanina;3,65;2017;6.810;Pasa;Camino Truncado 6 2017
+Camino Truncado;6;Sultanina;3,65;2018;7.121;Pasa;Camino Truncado 6 2018
+Camino Truncado;6;Sultanina;3,65;2019;16.006;Pasa;Camino Truncado 6 2019
+Camino Truncado;6;Sultanina;3,65;2020;6.175;Pasa;Camino Truncado 6 2020
+Camino Truncado;6;Sultanina;3,65;2021;10.497;Pasa;Camino Truncado 6 2021
+Camino Truncado;7;Sultanina;4,81;2013;19.491;Pasa;Camino Truncado 7 2013
+Camino Truncado;7;Sultanina;4,81;2014;235;Pasa;Camino Truncado 7 2014
+Camino Truncado;7;Sultanina;4,81;2015;19.395;Pasa;Camino Truncado 7 2015
+Camino Truncado;7;Sultanina;4,81;2016;8.060;Pasa;Camino Truncado 7 2016
+Camino Truncado;7;Sultanina;4,81;2017;4.610;Pasa;Camino Truncado 7 2017
+Camino Truncado;7;Sultanina;4,81;2018;7.269;Pasa;Camino Truncado 7 2018
+Camino Truncado;7;Sultanina;4,81;2019;14.393;Pasa;Camino Truncado 7 2019
+Camino Truncado;7;Sultanina;4,81;2020;6.593;Pasa;Camino Truncado 7 2020
+Camino Truncado;7;Sultanina;4,81;2021;14.242;Pasa;Camino Truncado 7 2021
+Camino Truncado;9;Sultanina;2,73;2013;8.228;Pasa;Camino Truncado 9 2013
+Camino Truncado;9;Sultanina;2,73;2014;5.325;Pasa;Camino Truncado 9 2014
+Camino Truncado;9;Sultanina;2,73;2015;19.193;Pasa;Camino Truncado 9 2015
+Camino Truncado;9;Sultanina;2,73;2016;15.938;Pasa;Camino Truncado 9 2016
+Camino Truncado;9;Sultanina;2,73;2017;3.470;Pasa;Camino Truncado 9 2017
+Camino Truncado;9;Sultanina;2,73;2018;11.915;Pasa;Camino Truncado 9 2018
+Camino Truncado;9;Sultanina;2,73;2019;13.823;Pasa;Camino Truncado 9 2019
+Camino Truncado;9;Sultanina;2,73;2020;9.070;Pasa;Camino Truncado 9 2020
+Camino Truncado;9;Sultanina;2,73;2021;23.921;Pasa;Camino Truncado 9 2021
+Camino Truncado;9;Sultanina;2,73;2022;1.062;Pasa;Camino Truncado 9 2022
+Camino Truncado;9;Sultanina;2,73;2023;8.569;Pasa;Camino Truncado 9 2023
+Camino Truncado;9;Sultanina;2,73;2024;6.421;Pasa;Camino Truncado 9 2024
+Camino Truncado;58;Arizul;2,15;2025;8.108;Pasa;Camino Truncado 58 2025
+Camino Truncado;51;Sultanina;3,05;2013;16.325;Pasa;Camino Truncado 51 2013
+Camino Truncado;51;Sultanina;3,05;2014;1.575;Pasa;Camino Truncado 51 2014
+Camino Truncado;51;Sultanina;3,05;2015;18.229;Pasa;Camino Truncado 51 2015
+Camino Truncado;51;Sultanina;3,05;2016;18.250;Pasa;Camino Truncado 51 2016
+Camino Truncado;51;Sultanina;3,05;2017;7.332;Pasa;Camino Truncado 51 2017
+Camino Truncado;51;Sultanina;3,05;2018;21.531;Pasa;Camino Truncado 51 2018
+Camino Truncado;51;Sultanina;3,05;2019;17.665;Pasa;Camino Truncado 51 2019
+Camino Truncado;51;Sultanina;3,05;2020;11.335;Pasa;Camino Truncado 51 2020
+Camino Truncado;51;Sultanina;3,05;2021;27.122;Pasa;Camino Truncado 51 2021
+Camino Truncado;51;Sultanina;3,05;2022;7.801;Pasa;Camino Truncado 51 2022
+Camino Truncado;51;Sultanina;3,05;2023;13.373;Pasa;Camino Truncado 51 2023
+Camino Truncado;51;Sultanina;3,05;2024;14.420;Pasa;Camino Truncado 51 2024
+Camino Truncado;59;Fiesta;0,89;2025;24.540;Uva;Camino Truncado 59 2025
+Camino Truncado;14;Superior;2,99;2013;11.038;Pasa;Camino Truncado 14 2013
+Camino Truncado;14;Superior;2,99;2015;21.393;Pasa;Camino Truncado 14 2015
+Camino Truncado;14;Superior;2,99;2016;14.335;Pasa;Camino Truncado 14 2016
+Camino Truncado;14;Superior;2,99;2017;2.303;Pasa;Camino Truncado 14 2017
+Camino Truncado;14;Superior;2,99;2018;8.732;Pasa;Camino Truncado 14 2018
+Camino Truncado;14;Superior;2,99;2019;9.911;Pasa;Camino Truncado 14 2019
+Camino Truncado;14;Superior;2,99;2020;5.681;Pasa;Camino Truncado 14 2020
+Camino Truncado;14;Superior;2,99;2021;9.030;Pasa;Camino Truncado 14 2021
+Camino Truncado;14;Superior;2,99;2022;10.201;Pasa;Camino Truncado 14 2022
+Camino Truncado;14;Superior;2,99;2023;8.484;Pasa;Camino Truncado 14 2023
+Camino Truncado;14;Superior;2,99;2024;13.478;Pasa;Camino Truncado 14 2024
+Camino Truncado;59;Fiesta;0,89;2025;5.455;Pasa;Camino Truncado 59 2025
+Puente Alto;1;Selma;5,13;2014;15.856;Pasa;Puente Alto 1 2014
+Puente Alto;1;Selma;5,13;2015;22.968;Pasa;Puente Alto 1 2015
+Puente Alto;1;Selma;5,13;2016;44.065;Pasa;Puente Alto 1 2016
+Puente Alto;1;Selma;5,13;2017;8.520;Pasa;Puente Alto 1 2017
+Puente Alto;1;Selma;5,13;2018;27.336;Pasa;Puente Alto 1 2018
+Puente Alto;1;Selma;5,13;2019;19.301;Pasa;Puente Alto 1 2019
+Puente Alto;1;Selma;5,13;2020;10.416;Pasa;Puente Alto 1 2020
+Puente Alto;1;Selma;5,13;2021;18.637;Pasa;Puente Alto 1 2021
+Puente Alto;1;Selma;5,13;2023;1.480;Pasa;Puente Alto 1 2023
+Puente Alto;1;Selma;5,13;2024;5.655;Pasa;Puente Alto 1 2024
+Puente Alto;4;Flame;4,44;2025;29.435;Pasa;Puente Alto 4 2025
+Puente Alto;2;Fiesta;0,38;2014;11.816;Pasa;Puente Alto 2 2014
+Puente Alto;2;Fiesta;0,38;2015;36.978;Pasa;Puente Alto 2 2015
+Puente Alto;2;Fiesta;0,38;2016;34.348;Pasa;Puente Alto 2 2016
+Puente Alto;2;Fiesta;0,38;2017;18.618;Pasa;Puente Alto 2 2017
+Puente Alto;2;Fiesta;0,38;2020;37.982;Pasa;Puente Alto 2 2020
+Puente Alto;2;Fiesta;0,38;2021;39.679;Pasa;Puente Alto 2 2021
+Puente Alto;2;Fiesta;0,38;2022;38.817;Pasa;Puente Alto 2 2022
+Puente Alto;5;Arizul;2,32;2014;6.181;Pasa;Puente Alto 5 2014
+Puente Alto;5;Arizul;2,32;2015;8.575;Pasa;Puente Alto 5 2015
+Puente Alto;5;Arizul;2,32;2016;10.218;Pasa;Puente Alto 5 2016
+Puente Alto;5;Arizul;2,32;2017;16.890;Pasa;Puente Alto 5 2017
+Puente Alto;5;Arizul;2,32;2018;16.693;Pasa;Puente Alto 5 2018
+Puente Alto;5;Arizul;2,32;2019;6.742;Pasa;Puente Alto 5 2019
+Puente Alto;5;Arizul;2,32;2020;9.850;Pasa;Puente Alto 5 2020
+Puente Alto;5;Arizul;2,32;2021;19.884;Pasa;Puente Alto 5 2021
+Puente Alto;5;Arizul;2,32;2022;16.928;Pasa;Puente Alto 5 2022
+Puente Alto;5;Arizul;2,32;2023;1.491;Pasa;Puente Alto 5 2023
+Puente Alto;5;Arizul;2,32;2024;17.272;Pasa;Puente Alto 5 2024
+Puente Alto;5;Arizul;2,32;2025;85.485;Uva;Puente Alto 5 2025
+Puente Alto;6;Arizul;3,5;2014;9.974;Pasa;Puente Alto 6 2014
+Puente Alto;6;Arizul;3,5;2015;18.257;Pasa;Puente Alto 6 2015
+Puente Alto;6;Arizul;3,5;2016;25.810;Pasa;Puente Alto 6 2016
+Puente Alto;6;Arizul;3,5;2017;33.460;Pasa;Puente Alto 6 2017
+Puente Alto;6;Arizul;3,5;2018;29.347;Pasa;Puente Alto 6 2018
+Puente Alto;6;Arizul;3,5;2019;13.305;Pasa;Puente Alto 6 2019
+Puente Alto;6;Arizul;3,5;2020;7.990;Pasa;Puente Alto 6 2020
+Puente Alto;6;Arizul;3,5;2021;30.051;Pasa;Puente Alto 6 2021
+Puente Alto;6;Arizul;3,5;2022;25.452;Pasa;Puente Alto 6 2022
+Puente Alto;6;Arizul;3,5;2023;7.913;Pasa;Puente Alto 6 2023
+Puente Alto;6;Arizul;3,5;2024;39.422;Pasa;Puente Alto 6 2024
+Puente Alto;5;Arizul;2,32;2025;21.052;Pasa;Puente Alto 5 2025
+Puente Alto;7;Selma;1,15;2014;10.546;Pasa;Puente Alto 7 2014
+Puente Alto;7;Selma;1,15;2015;6.319;Pasa;Puente Alto 7 2015
+Puente Alto;7;Selma;1,15;2016;1.817;Pasa;Puente Alto 7 2016
+Puente Alto;7;Selma;1,15;2017;6.070;Pasa;Puente Alto 7 2017
+Puente Alto;7;Selma;1,15;2018;2.665;Pasa;Puente Alto 7 2018
+Puente Alto;7;Selma;1,15;2019;1.094;Pasa;Puente Alto 7 2019
+Puente Alto;7;Selma;1,15;2020;0;Pasa;Puente Alto 7 2020
+Puente Alto;7;Selma;1,15;2021;2.093;Pasa;Puente Alto 7 2021
+Puente Alto;7;Selma;1,15;2022;5.330;Pasa;Puente Alto 7 2022
+Puente Alto;7;Selma;1,15;2023;3.637;Pasa;Puente Alto 7 2023
+Puente Alto;7;Selma;1,15;2024;7.191;Pasa;Puente Alto 7 2024
+Puente Alto;6;Arizul;3,5;2025;123.775;Uva;Puente Alto 6 2025
+La Chimbera;20;Fiesta;4,4;2013;1.580;Pasa;La Chimbera 20 2013
+La Chimbera;20;Fiesta;4,4;2014;4.579;Pasa;La Chimbera 20 2014
+La Chimbera;20;Fiesta;4,4;2015;17.378;Pasa;La Chimbera 20 2015
+La Chimbera;20;Fiesta;4,4;2016;6.649;Pasa;La Chimbera 20 2016
+La Chimbera;20;Fiesta;4,4;2017;8.682;Pasa;La Chimbera 20 2017
+La Chimbera;20;Fiesta;4,4;2018;14.893;Pasa;La Chimbera 20 2018
+La Chimbera;20;Fiesta;4,4;2019;6.413;Pasa;La Chimbera 20 2019
+La Chimbera;20;Fiesta;4,4;2020;14.457;Pasa;La Chimbera 20 2020
+La Chimbera;20;Fiesta;4,4;2021;57.712;Pasa;La Chimbera 20 2021
+La Chimbera;20;Fiesta;4,4;2022;16.149;Pasa;La Chimbera 20 2022
+La Chimbera;20;Fiesta;4,4;2023;10.034;Pasa;La Chimbera 20 2023
+La Chimbera;20;Fiesta;4,4;2024;39.951;Pasa;La Chimbera 20 2024
+La Chimbera;21;Flame;2,24;2025;18.348;Pasa;La Chimbera 21 2025
+La Chimbera;22;Fiesta;2,63;2013;1.089;Pasa;La Chimbera 22 2013
+La Chimbera;22;Fiesta;2,63;2014;8.804;Pasa;La Chimbera 22 2014
+La Chimbera;22;Fiesta;2,63;2015;17.180;Pasa;La Chimbera 22 2015
+La Chimbera;22;Fiesta;2,63;2016;8.931;Pasa;La Chimbera 22 2016
+La Chimbera;22;Fiesta;2,63;2017;6.636;Pasa;La Chimbera 22 2017
+La Chimbera;22;Fiesta;2,63;2018;16.960;Pasa;La Chimbera 22 2018
+La Chimbera;22;Fiesta;2,63;2019;12.508;Pasa;La Chimbera 22 2019
+La Chimbera;22;Fiesta;2,63;2020;12.451;Pasa;La Chimbera 22 2020
+La Chimbera;22;Fiesta;2,63;2021;35.513;Pasa;La Chimbera 22 2021
+La Chimbera;22;Fiesta;2,63;2022;10.036;Pasa;La Chimbera 22 2022
+La Chimbera;22;Fiesta;2,63;2023;13.058;Pasa;La Chimbera 22 2023
+La Chimbera;22;Fiesta;2,63;2024;24.177;Pasa;La Chimbera 22 2024
+La Chimbera;22;Fiesta;2,63;2025;114.600;Uva;La Chimbera 22 2025
+La Chimbera;26;Arizul;2,88;2014;488;Pasa;La Chimbera 26 2014
+La Chimbera;26;Arizul;2,88;2015;4.860;Pasa;La Chimbera 26 2015
+La Chimbera;26;Arizul;2,88;2016;6.340;Pasa;La Chimbera 26 2016
+La Chimbera;26;Arizul;2,88;2017;4.706;Pasa;La Chimbera 26 2017
+La Chimbera;26;Arizul;2,88;2018;9.456;Pasa;La Chimbera 26 2018
+La Chimbera;26;Arizul;2,88;2019;13.700;Pasa;La Chimbera 26 2019
+La Chimbera;26;Arizul;2,88;2020;17.702;Pasa;La Chimbera 26 2020
+La Chimbera;26;Arizul;2,88;2021;23.482;Pasa;La Chimbera 26 2021
+La Chimbera;26;Arizul;2,88;2022;3.560;Pasa;La Chimbera 26 2022
+La Chimbera;26;Arizul;2,88;2023;19.543;Pasa;La Chimbera 26 2023
+La Chimbera;26;Arizul;2,88;2024;22.126;Pasa;La Chimbera 26 2024
+La Chimbera;22;Fiesta;2,63;2025;22.713;Pasa;La Chimbera 22 2025
+La Chimbera;27;Arizul;2,86;2014;1.320;Pasa;La Chimbera 27 2014
+La Chimbera;27;Arizul;2,86;2015;9.217;Pasa;La Chimbera 27 2015
+La Chimbera;27;Arizul;2,86;2016;15.680;Pasa;La Chimbera 27 2016
+La Chimbera;27;Arizul;2,86;2017;9.182;Pasa;La Chimbera 27 2017
+La Chimbera;27;Arizul;2,86;2018;9.629;Pasa;La Chimbera 27 2018
+La Chimbera;27;Arizul;2,86;2019;16.309;Pasa;La Chimbera 27 2019
+La Chimbera;27;Arizul;2,86;2020;17.000;Pasa;La Chimbera 27 2020
+La Chimbera;27;Arizul;2,86;2021;31.639;Pasa;La Chimbera 27 2021
+La Chimbera;27;Arizul;2,86;2022;12.732;Pasa;La Chimbera 27 2022
+La Chimbera;27;Arizul;2,86;2023;23.179;Pasa;La Chimbera 27 2023
+La Chimbera;27;Arizul;2,86;2024;15.698;Pasa;La Chimbera 27 2024
+La Chimbera;23;Fiesta;2,84;2025;27.300;Uva;La Chimbera 23 2025
+El Espejo II;14;Fiesta;2,28;2023;7.250;Pasa;El Espejo II 14 2023
+El Espejo II;14;Fiesta;2,28;2024;7250,622594;Pasa;El Espejo II 14 2024
+El Espejo II;14;Fiesta;2,28;2025;16.190;Pasa;El Espejo II 14 2025
+El Espejo II;15;Fiesta;3,44;2023;11.694;Pasa;El Espejo II 15 2023
+El Espejo II;15;Fiesta;3,44;2024;10761,45038;Pasa;El Espejo II 15 2024
+El Espejo II;15;Fiesta;3,44;2025;25.106;Pasa;El Espejo II 15 2025
+El Espejo II;16;Fiesta;4,9;2023;8.576;Pasa;El Espejo II 16 2023
+El Espejo II;16;Fiesta;4,9;2024;8357,296569;Pasa;El Espejo II 16 2024
+El Espejo II;16;Fiesta;4,9;2025;26.783;Pasa;El Espejo II 16 2025
+El Espejo II;17;Fiesta;3,43;2022;2.280;Pasa;El Espejo II 17 2022
+El Espejo II;17;Fiesta;3,43;2023;7.406;Pasa;El Espejo II 17 2023
+El Espejo II;17;Fiesta;3,43;2024;4731,985272;Pasa;El Espejo II 17 2024
+El Espejo II;17;Fiesta;3,43;2025;19.017;Pasa;El Espejo II 17 2025
+El Espejo II;18;Fiesta;2,12;2023;4.444;Pasa;El Espejo II 18 2023
+El Espejo II;18;Fiesta;2,12;2024;5686,014561;Pasa;El Espejo II 18 2024
+El Espejo II;18;Fiesta;2,12;2025;11.683;Pasa;El Espejo II 18 2025
+El Espejo II;19;Fiesta;3,59;2023;3.508;Pasa;El Espejo II 19 2023
+El Espejo II;19;Fiesta;3,59;2024;5418,88636;Pasa;El Espejo II 19 2024
+El Espejo II;19;Fiesta;3,59;2025;16.488;Pasa;El Espejo II 19 2025
+El Espejo II;20;Fiesta;4,68;2023;4.833;Pasa;El Espejo II 20 2023
+El Espejo II;20;Fiesta;4,68;2024;6640,043849;Pasa;El Espejo II 20 2024
+El Espejo II;20;Fiesta;4,68;2025;21.557;Pasa;El Espejo II 20 2025
+El Espejo II;21;Fiesta;3,19;2023;1.949;Pasa;El Espejo II 21 2023
+El Espejo II;21;Fiesta;3,19;2024;3052,893724;Pasa;El Espejo II 21 2024
+El Espejo II;21;Fiesta;3,19;2025;11.632;Pasa;El Espejo II 21 2025
+El Espejo II;1;Selma;5,54;2022;10.964;Pasa;El Espejo II 1 2022
+El Espejo II;1;Selma;5,54;2023;33.396;Pasa;El Espejo II 1 2023
+El Espejo II;1;Selma;5,54;2024;28809,01309;Pasa;El Espejo II 1 2024
+El Espejo II;1;Selma;5,54;2025;43.297;Pasa;El Espejo II 1 2025
+El Espejo II;2;Selma;5,54;2022;13.631;Pasa;El Espejo II 2 2022
+El Espejo II;2;Selma;5,54;2023;31.550;Pasa;El Espejo II 2 2023
+El Espejo II;2;Selma;5,54;2024;40740,43635;Pasa;El Espejo II 2 2024
+El Espejo II;2;Selma;5,54;2025;41.097;Pasa;El Espejo II 2 2025
+El Espejo II;3;Selma;5,54;2022;2.469;Pasa;El Espejo II 3 2022
+El Espejo II;3;Selma;5,54;2023;20.389;Pasa;El Espejo II 3 2023
+El Espejo II;3;Selma;5,54;2024;25269,46731;Pasa;El Espejo II 3 2024
+El Espejo II;3;Selma;5,54;2025;35.086;Pasa;El Espejo II 3 2025
+El Espejo II;4;Selma;5,54;2022;3.951;Pasa;El Espejo II 4 2022
+El Espejo II;4;Selma;5,54;2023;21.356;Pasa;El Espejo II 4 2023
+El Espejo II;4;Selma;5,54;2024;22238,8019;Pasa;El Espejo II 4 2024
+El Espejo II;4;Selma;5,54;2025;29.854;Pasa;El Espejo II 4 2025
+El Espejo II;5;Selma;5,54;2022;5.729;Pasa;El Espejo II 5 2022
+El Espejo II;5;Selma;5,54;2023;23.025;Pasa;El Espejo II 5 2023
+El Espejo II;5;Selma;5,54;2024;24703,08151;Pasa;El Espejo II 5 2024
+El Espejo II;5;Selma;5,54;2025;30.201;Pasa;El Espejo II 5 2025
+El Espejo II;6;Selma;5,54;2022;6.420;Pasa;El Espejo II 6 2022
+El Espejo II;6;Selma;5,54;2023;26.013;Pasa;El Espejo II 6 2023
+El Espejo II;6;Selma;5,54;2024;35570,9853;Pasa;El Espejo II 6 2024
+El Espejo II;6;Selma;5,54;2025;34.796;Pasa;El Espejo II 6 2025
+El Espejo II;7;Selma;5,54;2023;4.834;Pasa;El Espejo II 7 2023
+El Espejo II;7;Selma;5,54;2024;1831,736234;Pasa;El Espejo II 7 2024
+El Espejo II;7;Selma;5,54;2025;19.530;Pasa;El Espejo II 7 2025
+El Espejo II;8;Selma;5,54;2022;395;Pasa;El Espejo II 8 2022
+El Espejo II;8;Selma;5,54;2023;6.679;Pasa;El Espejo II 8 2023
+El Espejo II;8;Selma;5,54;2024;3587,150126;Pasa;El Espejo II 8 2024
+El Espejo II;8;Selma;5,54;2025;28.040;Pasa;El Espejo II 8 2025
+El Espejo III;22;Fiesta;3,64;2024;305,2893724;Pasa;El Espejo III 22 2024
+El Espejo III;30;Fiesta;4,32;2025;3.611;Pasa;El Espejo III 30 2025
+El Espejo III;23;Fiesta;3,64;2024;305,2893724;Pasa;El Espejo III 23 2024
+El Espejo III;31;Fiesta;4,26;2025;18.920;Uva;El Espejo III 31 2025
+El Espejo III;31;Fiesta;4,26;2025;5.100;Pasa;El Espejo III 31 2025
+El Espejo III;32;Flame;4,54;2025;14.720;Uva;El Espejo III 32 2025
+El Espejo III;32;Flame;4,54;2025;3.903;Pasa;El Espejo III 32 2025
+El Espejo III;33;Fiesta;4,26;2025;13.444;Uva;El Espejo III 33 2025
+El Espejo III;33;Fiesta;4,26;2025;3.624;Pasa;El Espejo III 33 2025
+El Espejo III;34;Fiesta;4,26;2025;20.750;Uva;El Espejo III 34 2025
+El Espejo III;34;Fiesta;4,26;2025;5.593;Pasa;El Espejo III 34 2025
+El Espejo III;35;Flame;4,32;2025;15.040;Uva;El Espejo III 35 2025
+El Espejo III;35;Flame;4,32;2025;4.593;Pasa;El Espejo III 35 2025
+La Chimbera;23;Fiesta;2,84;2013;384;Pasa;La Chimbera 23 2013
+La Chimbera;23;Fiesta;2,84;2014;2.601;Pasa;La Chimbera 23 2014
+La Chimbera;23;Fiesta;2,84;2015;6.407;Pasa;La Chimbera 23 2015
+La Chimbera;23;Fiesta;2,84;2016;287;Pasa;La Chimbera 23 2016
+La Chimbera;23;Fiesta;2,84;2017;4.612;Pasa;La Chimbera 23 2017
+La Chimbera;23;Fiesta;2,84;2018;8.919;Pasa;La Chimbera 23 2018
+La Chimbera;23;Fiesta;2,84;2019;3.131;Pasa;La Chimbera 23 2019
+La Chimbera;23;Fiesta;2,84;2020;3.887;Pasa;La Chimbera 23 2020
+La Chimbera;23;Fiesta;2,84;2021;25.938;Pasa;La Chimbera 23 2021
+La Chimbera;23;Fiesta;2,84;2022;617;Pasa;La Chimbera 23 2022
+La Chimbera;23;Fiesta;2,84;2023;6.500;Pasa;La Chimbera 23 2023
+La Chimbera;23;Fiesta;2,84;2024;19.091;Pasa;La Chimbera 23 2024
+La Chimbera;23;Fiesta;2,84;2025;6.200;Pasa;La Chimbera 23 2025
+La Chimbera;24;Arizul;2,84;2013;734;Pasa;La Chimbera 24 2013
+La Chimbera;24;Arizul;2,84;2014;1.765;Pasa;La Chimbera 24 2014
+La Chimbera;24;Arizul;2,84;2015;8.168;Pasa;La Chimbera 24 2015
+La Chimbera;24;Arizul;2,84;2016;8.106;Pasa;La Chimbera 24 2016
+La Chimbera;24;Arizul;2,84;2017;6.465;Pasa;La Chimbera 24 2017
+La Chimbera;24;Arizul;2,84;2018;8.737;Pasa;La Chimbera 24 2018
+La Chimbera;24;Arizul;2,84;2019;17.469;Pasa;La Chimbera 24 2019
+La Chimbera;24;Arizul;2,84;2020;19.539;Pasa;La Chimbera 24 2020
+La Chimbera;24;Arizul;2,84;2021;17.792;Pasa;La Chimbera 24 2021
+La Chimbera;24;Arizul;2,84;2022;7.418;Pasa;La Chimbera 24 2022
+La Chimbera;24;Arizul;2,84;2023;17.310;Pasa;La Chimbera 24 2023
+La Chimbera;24;Arizul;2,84;2024;23.411;Pasa;La Chimbera 24 2024
+La Chimbera;24;Arizul;2,84;2025;122.500;Uva;La Chimbera 24 2025
+La Chimbera;25;Arizul;2,84;2013;1.249;Pasa;La Chimbera 25 2013
+La Chimbera;25;Arizul;2,84;2014;3.348;Pasa;La Chimbera 25 2014
+La Chimbera;25;Arizul;2,84;2015;10.252;Pasa;La Chimbera 25 2015
+La Chimbera;25;Arizul;2,84;2016;9.108;Pasa;La Chimbera 25 2016
+La Chimbera;25;Arizul;2,84;2017;9.059;Pasa;La Chimbera 25 2017
+La Chimbera;25;Arizul;2,84;2018;12.240;Pasa;La Chimbera 25 2018
+La Chimbera;25;Arizul;2,84;2019;23.258;Pasa;La Chimbera 25 2019
+La Chimbera;25;Arizul;2,84;2020;10.024;Pasa;La Chimbera 25 2020
+La Chimbera;25;Arizul;2,84;2021;21.396;Pasa;La Chimbera 25 2021
+La Chimbera;25;Arizul;2,84;2022;8.389;Pasa;La Chimbera 25 2022
+La Chimbera;25;Arizul;2,84;2023;13.818;Pasa;La Chimbera 25 2023
+La Chimbera;25;Arizul;2,84;2024;21.478;Pasa;La Chimbera 25 2024
+La Chimbera;24;Arizul;2,84;2025;41.016;Pasa;La Chimbera 24 2025
+La Chimbera;17;Flame;2,24;2013;133;Pasa;La Chimbera 17 2013
+La Chimbera;17;Flame;2,24;2014;1.211;Pasa;La Chimbera 17 2014
+La Chimbera;17;Flame;2,24;2015;7.833;Pasa;La Chimbera 17 2015
+La Chimbera;17;Flame;2,24;2016;12.733;Pasa;La Chimbera 17 2016
+La Chimbera;17;Flame;2,24;2017;6.680;Pasa;La Chimbera 17 2017
+La Chimbera;17;Flame;2,24;2018;9.269;Pasa;La Chimbera 17 2018
+La Chimbera;17;Flame;2,24;2019;16.408;Pasa;La Chimbera 17 2019
+La Chimbera;17;Flame;2,24;2020;17.912;Pasa;La Chimbera 17 2020
+La Chimbera;17;Flame;2,24;2021;30.187;Pasa;La Chimbera 17 2021
+La Chimbera;17;Flame;2,24;2022;10.717;Pasa;La Chimbera 17 2022
+La Chimbera;17;Flame;2,24;2023;25.968;Pasa;La Chimbera 17 2023
+La Chimbera;17;Flame;2,24;2024;24.871;Pasa;La Chimbera 17 2024
+La Chimbera;25;Arizul;2,84;2025;89.000;Uva;La Chimbera 25 2025
+La Chimbera;19;Flame;2,24;2013;893;Pasa;La Chimbera 19 2013
+La Chimbera;19;Flame;2,24;2014;860;Pasa;La Chimbera 19 2014
+La Chimbera;19;Flame;2,24;2015;5.537;Pasa;La Chimbera 19 2015
+La Chimbera;19;Flame;2,24;2016;9.673;Pasa;La Chimbera 19 2016
+La Chimbera;19;Flame;2,24;2017;5.812;Pasa;La Chimbera 19 2017
+La Chimbera;19;Flame;2,24;2018;8.587;Pasa;La Chimbera 19 2018
+La Chimbera;19;Flame;2,24;2019;12.013;Pasa;La Chimbera 19 2019
+La Chimbera;19;Flame;2,24;2020;25.354;Pasa;La Chimbera 19 2020
+La Chimbera;19;Flame;2,24;2021;27.312;Pasa;La Chimbera 19 2021
+La Chimbera;19;Flame;2,24;2022;17.951;Pasa;La Chimbera 19 2022
+La Chimbera;19;Flame;2,24;2023;22.403;Pasa;La Chimbera 19 2023
+La Chimbera;19;Flame;2,24;2024;30.390;Pasa;La Chimbera 19 2024
+La Chimbera;25;Arizul;2,84;2025;21.510;Pasa;La Chimbera 25 2025
+La Chimbera;21;Flame;2,24;2014;210;Pasa;La Chimbera 21 2014
+La Chimbera;21;Flame;2,24;2015;6.213;Pasa;La Chimbera 21 2015
+La Chimbera;21;Flame;2,24;2016;8.085;Pasa;La Chimbera 21 2016
+La Chimbera;21;Flame;2,24;2017;4.152;Pasa;La Chimbera 21 2017
+La Chimbera;21;Flame;2,24;2018;15.512;Pasa;La Chimbera 21 2018
+La Chimbera;21;Flame;2,24;2019;12.207;Pasa;La Chimbera 21 2019
+La Chimbera;21;Flame;2,24;2020;24.466;Pasa;La Chimbera 21 2020
+La Chimbera;21;Flame;2,24;2021;29.149;Pasa;La Chimbera 21 2021
+La Chimbera;21;Flame;2,24;2022;15.162;Pasa;La Chimbera 21 2022
+La Chimbera;21;Flame;2,24;2023;27.905;Pasa;La Chimbera 21 2023
+La Chimbera;21;Flame;2,24;2024;33.143;Pasa;La Chimbera 21 2024
+La Chimbera;26;Arizul;2,88;2025;140.100;Uva;La Chimbera 26 2025
+Puente Alto;2;Flame;4,75;2014;11.816;Pasa;Puente Alto 2 2014
+Puente Alto;2;Flame;4,75;2015;36.978;Pasa;Puente Alto 2 2015
+Puente Alto;2;Flame;4,75;2016;34.348;Pasa;Puente Alto 2 2016
+Puente Alto;2;Flame;4,75;2017;18.618;Pasa;Puente Alto 2 2017
+Puente Alto;2;Flame;5,13;2018;53.666;Pasa;Puente Alto 2 2018
+Puente Alto;2;Flame;5,13;2019;19.922;Pasa;Puente Alto 2 2019
+Puente Alto;2;Flame;4,75;2020;37.982;Pasa;Puente Alto 2 2020
+Puente Alto;2;Flame;4,75;2021;39.679;Pasa;Puente Alto 2 2021
+Puente Alto;2;Flame;4,75;2022;38.817;Pasa;Puente Alto 2 2022
+Puente Alto;2;Flame;5,13;2023;30.072;Pasa;Puente Alto 2 2023
+Puente Alto;2;Flame;5,13;2024;32.048;Pasa;Puente Alto 2 2024
+Puente Alto;6;Arizul;3,5;2025;26.380;Pasa;Puente Alto 6 2025
+Puente Alto;3;Flame;5,11;2014;2.059;Pasa;Puente Alto 3 2014
+Puente Alto;3;Flame;5,11;2017;827;Pasa;Puente Alto 3 2017
+Puente Alto;3;Flame;5,11;2018;8.952;Pasa;Puente Alto 3 2018
+Puente Alto;3;Flame;5,11;2019;12.308;Pasa;Puente Alto 3 2019
+Puente Alto;3;Flame;5,11;2020;36.632;Pasa;Puente Alto 3 2020
+Puente Alto;3;Flame;5,11;2021;34.212;Pasa;Puente Alto 3 2021
+Puente Alto;3;Flame;5,11;2022;50.214;Pasa;Puente Alto 3 2022
+Puente Alto;3;Flame;5,11;2023;16.498;Pasa;Puente Alto 3 2023
+Puente Alto;3;Flame;5,11;2024;56.543;Pasa;Puente Alto 3 2024
+Puente Alto;7;Selma;1,15;2025;22.730;Uva;Puente Alto 7 2025
+Puente Alto;4;Flame;4,44;2014;1.003;Pasa;Puente Alto 4 2014
+Puente Alto;4;Flame;4,44;2016;703;Pasa;Puente Alto 4 2016
+Puente Alto;4;Flame;4,44;2017;4.018;Pasa;Puente Alto 4 2017
+Puente Alto;4;Flame;4,44;2018;11.186;Pasa;Puente Alto 4 2018
+Puente Alto;4;Flame;4,44;2019;8.725;Pasa;Puente Alto 4 2019
+Puente Alto;4;Flame;4,44;2020;16.339;Pasa;Puente Alto 4 2020
+Puente Alto;4;Flame;4,44;2021;35.664;Pasa;Puente Alto 4 2021
+Puente Alto;4;Flame;4,44;2022;31.674;Pasa;Puente Alto 4 2022
+Puente Alto;4;Flame;4,44;2023;15.437;Pasa;Puente Alto 4 2023
+Puente Alto;4;Flame;4,44;2024;39.886;Pasa;Puente Alto 4 2024
+Puente Alto;7;Selma;1,15;2025;6.310;Pasa;Puente Alto 7 2025
+La Chimbera;15;Flame;3,69;2013;852;Pasa;La Chimbera 15 2013
+La Chimbera;15;Flame;3,69;2014;8.766;Pasa;La Chimbera 15 2014
+La Chimbera;15;Flame;3,69;2015;12.945;Pasa;La Chimbera 15 2015
+La Chimbera;15;Flame;3,69;2016;17.665;Pasa;La Chimbera 15 2016
+La Chimbera;15;Flame;3,69;2017;3.938;Pasa;La Chimbera 15 2017
+La Chimbera;15;Flame;3,69;2018;27.809;Pasa;La Chimbera 15 2018
+La Chimbera;15;Flame;3,69;2019;23.825;Pasa;La Chimbera 15 2019
+La Chimbera;15;Flame;3,69;2020;39.094;Pasa;La Chimbera 15 2020
+La Chimbera;15;Flame;3,69;2021;14.924;Pasa;La Chimbera 15 2021
+La Chimbera;15;Flame;3,69;2022;1.521;Pasa;La Chimbera 15 2022
+La Chimbera;15;Flame;3,69;2023;36.850;Pasa;La Chimbera 15 2023
+La Chimbera;15;Flame;3,69;2024;36.234;Pasa;La Chimbera 15 2024
+La Chimbera;26;Arizul;2,88;2025;28.179;Pasa;La Chimbera 26 2025
+La Chimbera;16;Flame;4,4;2013;2.271;Pasa;La Chimbera 16 2013
+La Chimbera;16;Flame;4,4;2014;10.979;Pasa;La Chimbera 16 2014
+La Chimbera;16;Flame;4,4;2015;25.071;Pasa;La Chimbera 16 2015
+La Chimbera;16;Flame;4,4;2016;31.955;Pasa;La Chimbera 16 2016
+La Chimbera;16;Flame;4,4;2017;16.018;Pasa;La Chimbera 16 2017
+La Chimbera;16;Flame;4,4;2018;22.016;Pasa;La Chimbera 16 2018
+La Chimbera;16;Flame;4,4;2019;19.940;Pasa;La Chimbera 16 2019
+La Chimbera;16;Flame;4,4;2020;48.658;Pasa;La Chimbera 16 2020
+La Chimbera;16;Flame;4,4;2021;44.179;Pasa;La Chimbera 16 2021
+La Chimbera;16;Flame;4,4;2022;45.721;Pasa;La Chimbera 16 2022
+La Chimbera;16;Flame;4,4;2023;49.937;Pasa;La Chimbera 16 2023
+La Chimbera;16;Flame;4,4;2024;44.571;Pasa;La Chimbera 16 2024
+La Chimbera;27;Arizul;2,86;2025;121.200;Uva;La Chimbera 27 2025
+La Chimbera;18;Flame;4,4;2013;893;Pasa;La Chimbera 18 2013
+La Chimbera;18;Flame;4,4;2014;6.775;Pasa;La Chimbera 18 2014
+La Chimbera;18;Flame;4,4;2015;15.701;Pasa;La Chimbera 18 2015
+La Chimbera;18;Flame;4,4;2016;17.183;Pasa;La Chimbera 18 2016
+La Chimbera;18;Flame;4,4;2017;17.708;Pasa;La Chimbera 18 2017
+La Chimbera;18;Flame;4,4;2018;18.957;Pasa;La Chimbera 18 2018
+La Chimbera;18;Flame;4,4;2019;12.486;Pasa;La Chimbera 18 2019
+La Chimbera;18;Flame;4,4;2020;31.157;Pasa;La Chimbera 18 2020
+La Chimbera;18;Flame;4,4;2021;36.057;Pasa;La Chimbera 18 2021
+La Chimbera;18;Flame;4,4;2022;7.799;Pasa;La Chimbera 18 2022
+La Chimbera;18;Flame;4,4;2023;43.864;Pasa;La Chimbera 18 2023
+La Chimbera;18;Flame;4,4;2024;33.848;Pasa;La Chimbera 18 2024
+La Chimbera;27;Arizul;2,86;2025;25.055;Pasa;La Chimbera 27 2025
+El Espejo I;1;Flame;3,13;2022;18.756;Pasa;El Espejo I 1 2022
+El Espejo I;1;Flame;3,13;2023;25.695;Pasa;El Espejo I 1 2023
+El Espejo I;1;Flame;3,13;2024;27470,31919;Pasa;El Espejo I 1 2024
+El Espejo I;1;Flame;3,13;2025;34.418;Pasa;El Espejo I 1 2025
+El Espejo I;2;Flame;2,85;2022;9.017;Pasa;El Espejo I 2 2022
+El Espejo I;2;Flame;2,85;2023;23.012;Pasa;El Espejo I 2 2023
+El Espejo I;2;Flame;2,85;2024;26396,46382;Pasa;El Espejo I 2 2024
+El Espejo I;2;Flame;2,85;2025;39.582;Pasa;El Espejo I 2 2025
+El Espejo I;3;Flame;6,31;2023;488;Pasa;El Espejo I 3 2023
+El Espejo I;3;Flame;6,31;2024;0;Pasa;El Espejo I 3 2024
+El Espejo I;3;Flame;6,31;2025;8.625;Pasa;El Espejo I 3 2025
+El Espejo I;4;Flame;6,31;2022;17.133;Pasa;El Espejo I 4 2022
+El Espejo I;4;Flame;6,31;2023;46.268;Pasa;El Espejo I 4 2023
+El Espejo I;4;Flame;6,31;2024;39681,59682;Pasa;El Espejo I 4 2024
+El Espejo I;4;Flame;6,31;2025;63.769;Pasa;El Espejo I 4 2025
+El Espejo I;5;Flame;4,58;2023;407;Pasa;El Espejo I 5 2023
+El Espejo I;5;Flame;4,58;2024;0;Pasa;El Espejo I 5 2024
+El Espejo I;5;Flame;4,58;2025;4.440;Pasa;El Espejo I 5 2025
+El Espejo I;6;Flame;2,03;2023;163;Pasa;El Espejo I 6 2023
+El Espejo I;6;Flame;2,03;2024;0;Pasa;El Espejo I 6 2024
+El Espejo I;6;Flame;2,03;2025;3.321;Pasa;El Espejo I 6 2025
+El Espejo I;7;Flame;6,01;2022;2.525;Pasa;El Espejo I 7 2022
+El Espejo I;7;Flame;6,01;2023;43.828;Pasa;El Espejo I 7 2023
+El Espejo I;7;Flame;6,01;2024;51911,44622;Pasa;El Espejo I 7 2024
+El Espejo I;7;Flame;6,01;2025;65.631;Pasa;El Espejo I 7 2025
+El Espejo I;8;Flame;4,83;2022;541;Pasa;El Espejo I 8 2022
+El Espejo I;8;Flame;4,83;2023;20.410;Pasa;El Espejo I 8 2023
+El Espejo I;8;Flame;4,83;2024;37666,0128;Pasa;El Espejo I 8 2024
+El Espejo I;8;Flame;4,83;2025;45.881;Pasa;El Espejo I 8 2025
+El Espejo I;9;Flame;6,73;2022;7.575;Pasa;El Espejo I 9 2022
+El Espejo I;9;Flame;6,73;2023;56.269;Pasa;El Espejo I 9 2023
+El Espejo I;9;Flame;6,73;2024;57922,96053;Pasa;El Espejo I 9 2024
+El Espejo I;9;Flame;6,73;2025;67.026;Pasa;El Espejo I 9 2025
+El Espejo I;10;Flame;1,64;2023;610;Pasa;El Espejo I 10 2023
+El Espejo I;10;Flame;1,64;2024;203,5262483;Pasa;El Espejo I 10 2024
+El Espejo I;10;Flame;1,64;2025;7.169;Pasa;El Espejo I 10 2025
+El Espejo I;11;Flame;4,07;2023;203;Pasa;El Espejo I 11 2023
+El Espejo I;11;Flame;4,07;2024;0;Pasa;El Espejo I 11 2024
+El Espejo I;11;Flame;4,07;2025;9.255;Pasa;El Espejo I 11 2025
+El Espejo I;12;Flame;2,29;2023;447;Pasa;El Espejo I 12 2023
+El Espejo I;12;Flame;2,29;2024;0;Pasa;El Espejo I 12 2024
+El Espejo I;12;Flame;2,29;2025;12.289;Pasa;El Espejo I 12 2025
+El Espejo I;14;Flame;5,11;2023;488;Pasa;El Espejo I 14 2023
+El Espejo I;14;Flame;5,11;2024;0;Pasa;El Espejo I 14 2024
+El Espejo I;14;Flame;5,11;2025;5.600;Pasa;El Espejo I 14 2025
+El Espejo II;9;Flame;5,54;2022;7.867;Pasa;El Espejo II 9 2022
+El Espejo II;9;Flame;5,54;2023;32.703;Pasa;El Espejo II 9 2023
+El Espejo II;9;Flame;5,54;2024;44269,87504;Pasa;El Espejo II 9 2024
+El Espejo II;9;Flame;5,54;2025;51.033;Pasa;El Espejo II 9 2025
+El Espejo II;10;Flame;5,54;2022;13.314;Pasa;El Espejo II 10 2022
+El Espejo II;10;Flame;5,54;2023;40.453;Pasa;El Espejo II 10 2023
+El Espejo II;10;Flame;5,54;2024;42129,8334;Pasa;El Espejo II 10 2024
+El Espejo II;10;Flame;5,54;2025;49.999;Pasa;El Espejo II 10 2025
+El Espejo II;11;Flame;5,54;2022;2.875;Pasa;El Espejo II 11 2022
+El Espejo II;11;Flame;5,54;2023;24.101;Pasa;El Espejo II 11 2023
+El Espejo II;11;Flame;5,54;2024;32174,0351;Pasa;El Espejo II 11 2024
+El Espejo II;11;Flame;5,54;2025;44.857;Pasa;El Espejo II 11 2025
+El Espejo II;12;Flame;5,54;2022;4.690;Pasa;El Espejo II 12 2022
+El Espejo II;12;Flame;5,54;2023;27.433;Pasa;El Espejo II 12 2023
+El Espejo II;12;Flame;5,54;2024;37658,48695;Pasa;El Espejo II 12 2024
+El Espejo II;12;Flame;5,54;2025;54.044;Pasa;El Espejo II 12 2025
+El Espejo III;36;Fiesta;4,32;2025;15.500;Uva;El Espejo III 36 2025
+El Espejo III;36;Fiesta;4,32;2025;4.178;Pasa;El Espejo III 36 2025
+El Espejo III;37;Fiesta;4,26;2025;12.480;Uva;El Espejo III 37 2025
+El Espejo III;37;Fiesta;4,26;2025;3.364;Pasa;El Espejo III 37 2025
+El Espejo III;38;Flame;4,06;2025;10.880;Uva;El Espejo III 38 2025
+El Espejo III;38;Flame;4,06;2025;3.396;Pasa;El Espejo III 38 2025
+Camino Truncado;2;Flame;4,08;BP 2026;142.800;Uva;Camino Truncado 2 BP 2026
+Camino Truncado;2;Flame;4,08;BP 2026;35.700;Pasa;Camino Truncado 2 BP 2026
+Camino Truncado;4;Flame;3,03;BP 2026;96.960;Uva;Camino Truncado 4 BP 2026
+Camino Truncado;4;Flame;3,03;BP 2026;24.240;Pasa;Camino Truncado 4 BP 2026
+Camino Truncado;5;Flame;4,21;BP 2026;126.300;Uva;Camino Truncado 5 BP 2026
+Camino Truncado;5;Flame;4,21;BP 2026;31.575;Pasa;Camino Truncado 5 BP 2026
+Camino Truncado;8;Arizul;2,37;BP 2026;54.510;Uva;Camino Truncado 8 BP 2026
+Camino Truncado;8;Arizul;2,37;BP 2026;13.628;Pasa;Camino Truncado 8 BP 2026
+Camino Truncado;9;Sultanina;2,73;BP 2026;40.950;Uva;Camino Truncado 9 BP 2026
+Camino Truncado;9;Sultanina;2,73;BP 2026;10.238;Pasa;Camino Truncado 9 BP 2026
+Camino Truncado;10;Fiesta;1,9;BP 2026;85.500;Uva;Camino Truncado 10 BP 2026
+Camino Truncado;10;Fiesta;1,9;BP 2026;21.375;Pasa;Camino Truncado 10 BP 2026
+Camino Truncado;11;Fiesta;2,58;BP 2026;98.040;Uva;Camino Truncado 11 BP 2026
+Camino Truncado;11;Fiesta;2,58;BP 2026;24.510;Pasa;Camino Truncado 11 BP 2026
+Camino Truncado;12;Arizul;2,54;BP 2026;101.600;Uva;Camino Truncado 12 BP 2026
+Camino Truncado;12;Arizul;2,54;BP 2026;25.400;Pasa;Camino Truncado 12 BP 2026
+Camino Truncado;13;Arizul;1,73;BP 2026;64.010;Uva;Camino Truncado 13 BP 2026
+Camino Truncado;13;Arizul;1,73;BP 2026;16.003;Pasa;Camino Truncado 13 BP 2026
+Camino Truncado;14;Superior;2,99;BP 2026;44.850;Uva;Camino Truncado 14 BP 2026
+Camino Truncado;14;Superior;2,99;BP 2026;11.213;Pasa;Camino Truncado 14 BP 2026
+Camino Truncado;15;Arizul;3,44;BP 2026;127.280;Uva;Camino Truncado 15 BP 2026
+Camino Truncado;15;Arizul;3,44;BP 2026;31.820;Pasa;Camino Truncado 15 BP 2026
+Camino Truncado;16;Fiesta;3,33;BP 2026;133.200;Uva;Camino Truncado 16 BP 2026
+Camino Truncado;16;Fiesta;3,33;BP 2026;33.300;Pasa;Camino Truncado 16 BP 2026
+Camino Truncado;17;Arizul;3,25;BP 2026;81.250;Uva;Camino Truncado 17 BP 2026
+Camino Truncado;17;Arizul;3,25;BP 2026;20.313;Pasa;Camino Truncado 17 BP 2026
+Camino Truncado;18;Arizul;2,05;BP 2026;82.000;Uva;Camino Truncado 18 BP 2026
+Camino Truncado;18;Arizul;2,05;BP 2026;20.500;Pasa;Camino Truncado 18 BP 2026
+Camino Truncado;19;Arizul;1,298;BP 2026;45.430;Uva;Camino Truncado 19 BP 2026
+Camino Truncado;19;Arizul;1,298;BP 2026;11.358;Pasa;Camino Truncado 19 BP 2026
+Camino Truncado;20;Flame;1,473;BP 2026;51.555;Uva;Camino Truncado 20 BP 2026
+Camino Truncado;20;Flame;1,473;BP 2026;12.889;Pasa;Camino Truncado 20 BP 2026
+Camino Truncado;21;Flame;2,64;BP 2026;92.400;Uva;Camino Truncado 21 BP 2026
+Camino Truncado;21;Flame;2,64;BP 2026;23.100;Pasa;Camino Truncado 21 BP 2026
+Camino Truncado;22;Fiesta;2,82;BP 2026;126.900;Uva;Camino Truncado 22 BP 2026
+Camino Truncado;22;Fiesta;2,82;BP 2026;31.725;Pasa;Camino Truncado 22 BP 2026
+Camino Truncado;23;Flame;1,4528;BP 2026;50.848;Uva;Camino Truncado 23 BP 2026
+Camino Truncado;23;Flame;1,4528;BP 2026;12.712;Pasa;Camino Truncado 23 BP 2026
+Camino Truncado;51;Sultanina;3,05;BP 2026;45.750;Uva;Camino Truncado 51 BP 2026
+Camino Truncado;51;Sultanina;3,05;BP 2026;11.438;Pasa;Camino Truncado 51 BP 2026
+Camino Truncado;52;Arizul;2;BP 2026;80.000;Uva;Camino Truncado 52 BP 2026
+Camino Truncado;52;Arizul;2;BP 2026;20.000;Pasa;Camino Truncado 52 BP 2026
+Camino Truncado;53;Fiesta;2,17;BP 2026;86.800;Uva;Camino Truncado 53 BP 2026
+Camino Truncado;53;Fiesta;2,17;BP 2026;21.700;Pasa;Camino Truncado 53 BP 2026
+Camino Truncado;54;Arizul;1,08;BP 2026;37.800;Uva;Camino Truncado 54 BP 2026
+Camino Truncado;54;Arizul;1,08;BP 2026;9.450;Pasa;Camino Truncado 54 BP 2026
+Camino Truncado;55;Fiesta;2,15;BP 2026;96.750;Uva;Camino Truncado 55 BP 2026
+Camino Truncado;55;Fiesta;2,15;BP 2026;24.188;Pasa;Camino Truncado 55 BP 2026
+Camino Truncado;56;Flame;1,81;BP 2026;54.300;Uva;Camino Truncado 56 BP 2026
+Camino Truncado;56;Flame;1,81;BP 2026;13.575;Pasa;Camino Truncado 56 BP 2026
+Camino Truncado;57;Flame;0,83;BP 2026;6.640;Uva;Camino Truncado 57 BP 2026
+Camino Truncado;57;Flame;0,83;BP 2026;1.660;Pasa;Camino Truncado 57 BP 2026
+Camino Truncado;58;Arizul;2,15;BP 2026;43.000;Uva;Camino Truncado 58 BP 2026
+Camino Truncado;58;Arizul;2,15;BP 2026;10.750;Pasa;Camino Truncado 58 BP 2026
+Camino Truncado;59;Fiesta;0,89;BP 2026;26.700;Uva;Camino Truncado 59 BP 2026
+Camino Truncado;59;Fiesta;0,89;BP 2026;6.675;Pasa;Camino Truncado 59 BP 2026
+El Espejo I;1;Flame;3,13;BP 2026;125.200;Uva;El Espejo I 1 BP 2026
+El Espejo I;2;Flame;2,85;BP 2026;114.000;Uva;El Espejo I 2 BP 2026
+El Espejo I;3;Flame;6,31;BP 2026;75.720;Uva;El Espejo I 3 BP 2026
+El Espejo I;4;Flame;6,31;BP 2026;252.400;Uva;El Espejo I 4 BP 2026
+El Espejo I;5;Flame;4,58;BP 2026;45.800;Uva;El Espejo I 5 BP 2026
+El Espejo I;6;Flame;2,03;BP 2026;20.300;Uva;El Espejo I 6 BP 2026
+El Espejo I;7;Flame;6,01;BP 2026;240.400;Uva;El Espejo I 7 BP 2026
+El Espejo I;8;Flame;4,83;BP 2026;193.200;Uva;El Espejo I 8 BP 2026
+El Espejo I;9;Flame;6,73;BP 2026;269.200;Uva;El Espejo I 9 BP 2026
+El Espejo I;10;Flame;1,64;BP 2026;32.800;Uva;El Espejo I 10 BP 2026
+El Espejo I;11;Flame;4,07;BP 2026;48.840;Uva;El Espejo I 11 BP 2026
+El Espejo I;12;Flame;2,29;BP 2026;45.800;Uva;El Espejo I 12 BP 2026
+El Espejo I;14;Flame;5,11;BP 2026;51.100;Uva;El Espejo I 14 BP 2026
+El Espejo I;1;Flame;3,13;BP 2026;31.300;Pasa;El Espejo I 1 BP 2026
+El Espejo I;2;Flame;2,85;BP 2026;28.500;Pasa;El Espejo I 2 BP 2026
+El Espejo I;3;Flame;6,31;BP 2026;18.930;Pasa;El Espejo I 3 BP 2026
+El Espejo I;4;Flame;6,31;BP 2026;63.100;Pasa;El Espejo I 4 BP 2026
+El Espejo I;5;Flame;4,58;BP 2026;11.450;Pasa;El Espejo I 5 BP 2026
+El Espejo I;6;Flame;2,03;BP 2026;5.075;Pasa;El Espejo I 6 BP 2026
+El Espejo I;7;Flame;6,01;BP 2026;60.100;Pasa;El Espejo I 7 BP 2026
+El Espejo I;8;Flame;4,83;BP 2026;48.300;Pasa;El Espejo I 8 BP 2026
+El Espejo I;9;Flame;6,73;BP 2026;67.300;Pasa;El Espejo I 9 BP 2026
+El Espejo I;10;Flame;1,64;BP 2026;8.200;Pasa;El Espejo I 10 BP 2026
+El Espejo I;11;Flame;4,07;BP 2026;12.210;Pasa;El Espejo I 11 BP 2026
+El Espejo I;12;Flame;2,29;BP 2026;11.450;Pasa;El Espejo I 12 BP 2026
+El Espejo I;14;Flame;5,11;BP 2026;12.775;Pasa;El Espejo I 14 BP 2026
+El Espejo II;14;Fiesta;2,28;BP 2026;79.800;Uva;El Espejo II 14 BP 2026
+El Espejo II;15;Fiesta;3,44;BP 2026;120.400;Uva;El Espejo II 15 BP 2026
+El Espejo II;16;Fiesta;4,9;BP 2026;122.500;Uva;El Espejo II 16 BP 2026
+El Espejo II;17;Fiesta;3,43;BP 2026;85.750;Uva;El Espejo II 17 BP 2026
+El Espejo II;18;Fiesta;2,12;BP 2026;53.000;Uva;El Espejo II 18 BP 2026
+El Espejo II;19;Fiesta;3,59;BP 2026;89.750;Uva;El Espejo II 19 BP 2026
+El Espejo II;20;Fiesta;4,68;BP 2026;117.000;Uva;El Espejo II 20 BP 2026
+El Espejo II;21;Fiesta;3,19;BP 2026;79.750;Uva;El Espejo II 21 BP 2026
+El Espejo II;1;Selma;5,54;BP 2026;193.900;Uva;El Espejo II 1 BP 2026
+El Espejo II;2;Selma;5,54;BP 2026;193.900;Uva;El Espejo II 2 BP 2026
+El Espejo II;3;Selma;5,54;BP 2026;166.200;Uva;El Espejo II 3 BP 2026
+El Espejo II;4;Selma;5,54;BP 2026;138.500;Uva;El Espejo II 4 BP 2026
+El Espejo II;5;Selma;5,54;BP 2026;138.500;Uva;El Espejo II 5 BP 2026
+El Espejo II;6;Selma;5,54;BP 2026;138.500;Uva;El Espejo II 6 BP 2026
+El Espejo II;7;Selma;5,54;BP 2026;138.500;Uva;El Espejo II 7 BP 2026
+El Espejo II;8;Selma;5,54;BP 2026;138.500;Uva;El Espejo II 8 BP 2026
+El Espejo II;9;Flame;5,54;BP 2026;221.600;Uva;El Espejo II 9 BP 2026
+El Espejo II;10;Flame;5,54;BP 2026;221.600;Uva;El Espejo II 10 BP 2026
+El Espejo II;11;Flame;5,54;BP 2026;221.600;Uva;El Espejo II 11 BP 2026
+El Espejo II;12;Flame;5,54;BP 2026;221.600;Uva;El Espejo II 12 BP 2026
+El Espejo II;14;Fiesta;2,28;BP 2026;19.950;Pasa;El Espejo II 14 BP 2026
+El Espejo II;15;Fiesta;3,44;BP 2026;30.100;Pasa;El Espejo II 15 BP 2026
+El Espejo II;16;Fiesta;4,9;BP 2026;30.625;Pasa;El Espejo II 16 BP 2026
+El Espejo II;17;Fiesta;3,43;BP 2026;21.438;Pasa;El Espejo II 17 BP 2026
+El Espejo II;18;Fiesta;2,12;BP 2026;13.250;Pasa;El Espejo II 18 BP 2026
+El Espejo II;19;Fiesta;3,59;BP 2026;22.438;Pasa;El Espejo II 19 BP 2026
+El Espejo II;20;Fiesta;4,68;BP 2026;29.250;Pasa;El Espejo II 20 BP 2026
+El Espejo II;21;Fiesta;3,19;BP 2026;19.938;Pasa;El Espejo II 21 BP 2026
+El Espejo II;1;Selma;5,54;BP 2026;48.475;Pasa;El Espejo II 1 BP 2026
+El Espejo II;2;Selma;5,54;BP 2026;48.475;Pasa;El Espejo II 2 BP 2026
+El Espejo II;3;Selma;5,54;BP 2026;41.550;Pasa;El Espejo II 3 BP 2026
+El Espejo II;4;Selma;5,54;BP 2026;34.625;Pasa;El Espejo II 4 BP 2026
+El Espejo II;5;Selma;5,54;BP 2026;34.625;Pasa;El Espejo II 5 BP 2026
+El Espejo II;6;Selma;5,54;BP 2026;34.625;Pasa;El Espejo II 6 BP 2026
+El Espejo II;7;Selma;5,54;BP 2026;34.625;Pasa;El Espejo II 7 BP 2026
+El Espejo II;8;Selma;5,54;BP 2026;34.625;Pasa;El Espejo II 8 BP 2026
+El Espejo II;9;Flame;5,54;BP 2026;55.400;Pasa;El Espejo II 9 BP 2026
+El Espejo II;10;Flame;5,54;BP 2026;55.400;Pasa;El Espejo II 10 BP 2026
+El Espejo II;11;Flame;5,54;BP 2026;55.400;Pasa;El Espejo II 11 BP 2026
+El Espejo II;12;Flame;5,54;BP 2026;55.400;Pasa;El Espejo II 12 BP 2026
+El Espejo III;22;Fiesta;3,64;BP 2026;72.800;Uva;El Espejo III 22 BP 2026
+El Espejo III;22;Fiesta;3,64;BP 2026;18.200;Pasa;El Espejo III 22 BP 2026
+El Espejo III;23;Fiesta;3,64;BP 2026;72.800;Uva;El Espejo III 23 BP 2026
+El Espejo III;23;Fiesta;3,64;BP 2026;18.200;Pasa;El Espejo III 23 BP 2026
+El Espejo III;24;Flame;3,64;BP 2026;58.240;Uva;El Espejo III 24 BP 2026
+El Espejo III;24;Flame;3,64;BP 2026;14.560;Pasa;El Espejo III 24 BP 2026
+El Espejo III;25;Flame;2;BP 2026;32.000;Uva;El Espejo III 25 BP 2026
+El Espejo III;25;Flame;2;BP 2026;8.000;Pasa;El Espejo III 25 BP 2026
+El Espejo III;26;Fiesta;2,8;BP 2026;44.800;Uva;El Espejo III 26 BP 2026
+El Espejo III;26;Fiesta;2,8;BP 2026;11.200;Pasa;El Espejo III 26 BP 2026
+El Espejo III;27;Fiesta;2,85;BP 2026;45.600;Uva;El Espejo III 27 BP 2026
+El Espejo III;27;Fiesta;2,85;BP 2026;11.400;Pasa;El Espejo III 27 BP 2026
+El Espejo III;28;Fiesta;4,28;BP 2026;68.480;Uva;El Espejo III 28 BP 2026
+El Espejo III;28;Fiesta;4,28;BP 2026;17.120;Pasa;El Espejo III 28 BP 2026
+El Espejo III;29;Flame;2,25;BP 2026;36.000;Uva;El Espejo III 29 BP 2026
+El Espejo III;29;Flame;2,25;BP 2026;9.000;Pasa;El Espejo III 29 BP 2026
+El Espejo III;30;Fiesta;4,32;BP 2026;69.120;Uva;El Espejo III 30 BP 2026
+El Espejo III;30;Fiesta;4,32;BP 2026;17.280;Pasa;El Espejo III 30 BP 2026
+El Espejo III;31;Fiesta;4,26;BP 2026;68.160;Uva;El Espejo III 31 BP 2026
+El Espejo III;31;Fiesta;4,26;BP 2026;17.040;Pasa;El Espejo III 31 BP 2026
+El Espejo III;32;Flame;4,54;BP 2026;72.640;Uva;El Espejo III 32 BP 2026
+El Espejo III;32;Flame;4,54;BP 2026;18.160;Pasa;El Espejo III 32 BP 2026
+El Espejo III;33;Fiesta;4,26;BP 2026;68.160;Uva;El Espejo III 33 BP 2026
+El Espejo III;33;Fiesta;4,26;BP 2026;17.040;Pasa;El Espejo III 33 BP 2026
+El Espejo III;34;Fiesta;4,26;BP 2026;68.160;Uva;El Espejo III 34 BP 2026
+El Espejo III;34;Fiesta;4,26;BP 2026;17.040;Pasa;El Espejo III 34 BP 2026
+El Espejo III;35;Flame;4,32;BP 2026;69.120;Uva;El Espejo III 35 BP 2026
+El Espejo III;35;Flame;4,32;BP 2026;17.280;Pasa;El Espejo III 35 BP 2026
+El Espejo III;36;Fiesta;4,32;BP 2026;69.120;Uva;El Espejo III 36 BP 2026
+El Espejo III;36;Fiesta;4,32;BP 2026;17.280;Pasa;El Espejo III 36 BP 2026
+El Espejo III;37;Fiesta;4,26;BP 2026;68.160;Uva;El Espejo III 37 BP 2026
+El Espejo III;37;Fiesta;4,26;BP 2026;17.040;Pasa;El Espejo III 37 BP 2026
+El Espejo III;38;Flame;4,06;BP 2026;64.960;Uva;El Espejo III 38 BP 2026
+El Espejo III;38;Flame;4,06;BP 2026;16.240;Pasa;El Espejo III 38 BP 2026
+El Espejo III;39;Selma;4,23;BP 2026;21.150;Uva;El Espejo III 39 BP 2026
+El Espejo III;39;Selma;4,23;BP 2026;5.288;Pasa;El Espejo III 39 BP 2026
+El Espejo III;40;Fiesta;4,23;BP 2026;21.150;Uva;El Espejo III 40 BP 2026
+El Espejo III;40;Fiesta;4,23;BP 2026;5.288;Pasa;El Espejo III 40 BP 2026
+El Espejo III;41;Flame;3,86;BP 2026;19.300;Uva;El Espejo III 41 BP 2026
+El Espejo III;41;Flame;3,86;BP 2026;4.825;Pasa;El Espejo III 41 BP 2026
+El Espejo III;42;Selma;4,23;BP 2026;21.150;Uva;El Espejo III 42 BP 2026
+El Espejo III;42;Selma;4,23;BP 2026;5.288;Pasa;El Espejo III 42 BP 2026
+El Espejo III;43;Fiesta;4,23;BP 2026;21.150;Uva;El Espejo III 43 BP 2026
+El Espejo III;43;Fiesta;4,23;BP 2026;5.288;Pasa;El Espejo III 43 BP 2026
+El Espejo III;44;Flame;3,65;BP 2026;18.250;Uva;El Espejo III 44 BP 2026
+El Espejo III;44;Flame;3,65;BP 2026;4.563;Pasa;El Espejo III 44 BP 2026
+El Espejo III;45;Selma;4,26;BP 2026;21.300;Uva;El Espejo III 45 BP 2026
+El Espejo III;45;Selma;4,26;BP 2026;5.325;Pasa;El Espejo III 45 BP 2026
+El Espejo III;46;Fiesta;3,83;BP 2026;19.150;Uva;El Espejo III 46 BP 2026
+El Espejo III;46;Fiesta;3,83;BP 2026;4.788;Pasa;El Espejo III 46 BP 2026
+El Espejo III;47;Flame;2,83;BP 2026;14.150;Uva;El Espejo III 47 BP 2026
+El Espejo III;47;Flame;2,83;BP 2026;3.538;Pasa;El Espejo III 47 BP 2026
+La Chimbera;15;Flame;3,69;BP 2026;148.000;Uva;La Chimbera 15 BP 2026
+La Chimbera;15;Flame;3,69;BP 2026;37.000;Pasa;La Chimbera 15 BP 2026
+La Chimbera;16;Flame;4,4;BP 2026;176.000;Uva;La Chimbera 16 BP 2026
+La Chimbera;16;Flame;4,4;BP 2026;44.000;Pasa;La Chimbera 16 BP 2026
+La Chimbera;17;Flame;2,24;BP 2026;99.000;Uva;La Chimbera 17 BP 2026
+La Chimbera;17;Flame;2,24;BP 2026;24.750;Pasa;La Chimbera 17 BP 2026
+La Chimbera;18;Flame;4,4;BP 2026;176.000;Uva;La Chimbera 18 BP 2026
+La Chimbera;18;Flame;4,4;BP 2026;44.000;Pasa;La Chimbera 18 BP 2026
+La Chimbera;19;Flame;2,24;BP 2026;99.000;Uva;La Chimbera 19 BP 2026
+La Chimbera;19;Flame;2,24;BP 2026;24.750;Pasa;La Chimbera 19 BP 2026
+La Chimbera;20;Fiesta;4,4;BP 2026;154.000;Uva;La Chimbera 20 BP 2026
+La Chimbera;20;Fiesta;4,4;BP 2026;38.500;Pasa;La Chimbera 20 BP 2026
+La Chimbera;21;Flame;2,24;BP 2026;99.000;Uva;La Chimbera 21 BP 2026
+La Chimbera;21;Flame;2,24;BP 2026;24.750;Pasa;La Chimbera 21 BP 2026
+La Chimbera;22;Fiesta;2,63;BP 2026;117.000;Uva;La Chimbera 22 BP 2026
+La Chimbera;22;Fiesta;2,63;BP 2026;29.250;Pasa;La Chimbera 22 BP 2026
+La Chimbera;23;Fiesta;2,84;BP 2026;84.000;Uva;La Chimbera 23 BP 2026
+La Chimbera;23;Fiesta;2,84;BP 2026;21.000;Pasa;La Chimbera 23 BP 2026
+La Chimbera;24;Arizul;2,84;BP 2026;112.000;Uva;La Chimbera 24 BP 2026
+La Chimbera;24;Arizul;2,84;BP 2026;28.000;Pasa;La Chimbera 24 BP 2026
+La Chimbera;25;Arizul;2,84;BP 2026;112.000;Uva;La Chimbera 25 BP 2026
+La Chimbera;25;Arizul;2,84;BP 2026;28.000;Pasa;La Chimbera 25 BP 2026
+La Chimbera;26;Arizul;2,88;BP 2026;130.500;Uva;La Chimbera 26 BP 2026
+La Chimbera;26;Arizul;2,88;BP 2026;32.625;Pasa;La Chimbera 26 BP 2026
+La Chimbera;27;Arizul;2,86;BP 2026;116.000;Uva;La Chimbera 27 BP 2026
+La Chimbera;27;Arizul;2,86;BP 2026;29.000;Pasa;La Chimbera 27 BP 2026
+Puente Alto;1;Selma;4,63;BP 2026;76.950;Uva;Puente Alto 1 BP 2026
+Puente Alto;1;Selma;4,63;BP 2026;19.238;Pasa;Puente Alto 1 BP 2026
+Puente Alto;2;Flame;5,13;BP 2026;184.680;Uva;Puente Alto 2 BP 2026
+Puente Alto;2;Flame;5,13;BP 2026;46.170;Pasa;Puente Alto 2 BP 2026
+Puente Alto;3;Flame;5,11;BP 2026;204.400;Uva;Puente Alto 3 BP 2026
+Puente Alto;3;Flame;5,11;BP 2026;51.100;Pasa;Puente Alto 3 BP 2026
+Puente Alto;4;Flame;4,44;BP 2026;133.200;Uva;Puente Alto 4 BP 2026
+Puente Alto;4;Flame;4,44;BP 2026;33.300;Pasa;Puente Alto 4 BP 2026
+Puente Alto;5;Arizul;2,32;BP 2026;83.520;Uva;Puente Alto 5 BP 2026
+Puente Alto;5;Arizul;2,32;BP 2026;20.880;Pasa;Puente Alto 5 BP 2026
+Puente Alto;6;Arizul;3,5;BP 2026;126.000;Uva;Puente Alto 6 BP 2026
+Puente Alto;6;Arizul;3,5;BP 2026;31.500;Pasa;Puente Alto 6 BP 2026
+Puente Alto;7;Selma;1,15;BP 2026;23.000;Uva;Puente Alto 7 BP 2026
+Puente Alto;7;Selma;1,15;BP 2026;5.750;Pasa;Puente Alto 7 BP 2026
+Puente Alto;1;Selma;5,13;2022;0;Uva;Puente Alto 1 2022
+Puente Alto;1;;5,13;2022;0;Pasa;Puente Alto 1 2022
+Puente Alto;3;Flame;5,11;2015;0;Uva;Puente Alto 3 2015
+Puente Alto;3;Flame;5,11;2015;0;Pasa;Puente Alto 3 2015
+Puente Alto;3;Flame;5,11;2016;0;Uva;Puente Alto 3 2016
+Puente Alto;3;Flame;5,11;2016;0;Pasa;Puente Alto 3 2016
+Puente Alto;4;Flame;4,44;2015;0;Uva;Puente Alto 4 2015
+Puente Alto;4;Flame;4,44;2015;0;Pasa;Puente Alto 4 2015
+\";

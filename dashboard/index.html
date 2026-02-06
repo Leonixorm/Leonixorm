@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NATURAL FOOD | Cosecha 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <i data-lucide="leaf"></i>
+                <span>NATURAL FOOD</span>
+            </div>
+            <div class="nav-group">
+                <div class="nav-item active" id="nav-dashboard">
+                    <i data-lucide="trending-up"></i>
+                    <span>Cosecha Gral</span>
+                </div>
+                <div class="nav-item" id="nav-daily">
+                    <i data-lucide="layout-grid"></i>
+                    <span>Cosecha por Día</span>
+                </div>
+                <div class="nav-item" id="nav-historical">
+                    <i data-lucide="calendar"></i>
+                    <span>Histórico</span>
+                </div>
+                <div class="nav-item">
+                    <i data-lucide="settings"></i>
+                    <span>Configuración</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header>
+                <h1 class="main-title">COSECHA 2026</h1>
+                <div class="status-row">
+                    <div id="last-update" class="update-badge">Sincronizando...</div>
+                </div>
+            </header>
+
+            <!-- Control Bar -->
+            <section class="controls-bar">
+                <div class="filter-group">
+                    <select id="finca-filter" multiple title="Mantenga Ctrl para seleccionar varias">
+                        <option value="all" selected>Fincas: Todas</option>
+                    </select>
+                    <select id="variedad-filter" multiple title="Mantenga Ctrl para seleccionar varias">
+                        <option value="all" selected>Variedad: Todas</option>
+                    </select>
+                    <select id="type-filter" multiple title="Mantenga Ctrl para seleccionar varias">
+                        <option value="all" selected>Tipo: Todos</option>
+                        <option value="Propios">Propios</option>
+                        <option value="Terceros">Terceros</option>
+                    </select>
+                    <select id="status-filter" multiple title="Mantenga Ctrl para seleccionar varias">
+                        <option value="all" selected>Estado: Todos</option>
+                        <option value="En proceso">En proceso</option>
+                        <option value="Terminado">Terminado</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <button id="refresh-btn" class="btn btn-primary">
+                        <i data-lucide="refresh-cw"></i>
+                        Actualizar
+                    </button>
+                </div>
+            </section>
+
+            <!-- View: Dashboard General -->
+            <div id="dashboard-view" class="view">
+                <!-- Global KPIs -->
+                <section class="global-summary">
+                    <div class="premium-card">
+                        <i data-lucide="grape" class="card-icon"></i>
+                        <span class="card-label">Kgs Reales</span>
+                        <div class="card-value" id="kpi-real">0</div>
+                    </div>
+                    <div class="premium-card">
+                        <i data-lucide="target" class="card-icon"></i>
+                        <span class="card-label">Kgs Estimados</span>
+                        <div class="card-value" id="kpi-planned">0</div>
+                    </div>
+                    <div class="premium-card">
+                        <i data-lucide="check-circle" class="card-icon"></i>
+                        <span class="card-label">Cuarteles Cerrados</span>
+                        <div class="card-value" id="kpi-finished">0/0</div>
+                    </div>
+                    <div class="premium-card">
+                        <i data-lucide="percent" class="card-icon"></i>
+                        <span class="card-label">Avance Total</span>
+                        <div class="card-value" id="kpi-progress">0%</div>
+                    </div>
+                </section>
+
+                <!-- Fincas Grid -->
+                <section id="fincas-grid" class="fincas-container">
+                    <!-- Inyectado dinámicamente -->
+                </section>
+
+                <!-- Detailed Table -->
+                <section class="details-section">
+                    <h2 style="margin-bottom: 2rem;">Detalle Técnico de Cosecha</h2>
+                    <div class="glass" style="padding: 0; overflow: hidden;">
+                        <table class="table-glass" id="details-table">
+                            <thead>
+                                <tr>
+                                    <th>Finca</th>
+                                    <th>Cuartel</th>
+                                    <th>Variedad</th>
+                                    <th>Estimado</th>
+                                    <th>Real</th>
+                                    <th>Δ Kgs</th>
+                                    <th>Estado</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+
+            <!-- View: Cosecha por Día -->
+            <div id="daily-view" class="view" style="display: none;">
+                <section class="premium-card" style="margin-bottom: 2rem;">
+                    <h2 style="margin-bottom: 1.5rem;">Evolución Diaria de Cosecha (Kgs por Día)</h2>
+                    <div style="height: 500px; position: relative;">
+                        <canvas id="daily-chart"></canvas>
+                    </div>
+                </section>
+                <section id="daily-summary" class="global-summary">
+                    <!-- Resumen diario extra si es necesario -->
+                </section>
+            </div>
+
+            <!-- View: Historico -->
+            <div id="historical-view" class="view" style="display: none;">
+                <div class="controls-bar" style="margin-bottom: 2rem; background: rgba(255,255,255,0.02);">
+                    <div class="filter-group">
+                        <select id="hist-cuartel-filter" multiple>
+                            <option value="all" selected>Cuarteles: Todos</option>
+                        </select>
+                        <select id="hist-materia-filter" multiple>
+                            <option value="all" selected>Materia: Todas</option>
+                        </select>
+                    </div>
+                </div>
+                <section class="premium-card" style="margin-bottom: 2rem;">
+                    <h2 style="margin-bottom: 1.5rem;">Comparativa Histórica vs Presupuesto 2026</h2>
+                    <div style="height: 500px; position: relative;">
+                        <canvas id="historical-chart"></canvas>
+                    </div>
+                </section>
+                <section id="historical-summary" class="global-summary" style="grid-template-columns: repeat(3, 1fr);">
+                    <!-- KPIs históricos inyectados -->
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
