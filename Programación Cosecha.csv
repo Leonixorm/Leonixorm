@@ -15,7 +15,7 @@ Camino Truncado;10;1,9;Fiesta;85500;21375;19/1/2026;lunes;enero;26/1/2026;4;5;;C
 Camino Truncado;11;2,58;Fiesta;87444,8;21861,2;19/1/2026;lunes;enero;26/1/2026;4;5;Terminado;Convencional;;;Propios
 Camino Truncado;12;2,54;Arizul;109075,2;27268,8;2/3/2026;lunes;marzo;1/4/2026;10;14;;Convencional;;;Propios
 Camino Truncado;13;1,73;Arizul;78408;19602;2/3/2026;lunes;marzo;1/4/2026;10;14;;Convencional;;;Propios
-Camino Truncado;14;2,99;Superior;101630,4;25407,6;12/1/2026;lunes;enero;19/1/2026;3;4;;Convencional;;;Propios
+Camino Truncado;14;2,99;Superior;101630,4;25407,6;12/1/2026;lunes;enero;19/1/2026;3;4;Terminado;Convencional;;;Propios
 Camino Truncado;15;3,14;Arizul;130060;32515;9/3/2026;lunes;marzo;8/4/2026;11;15;;Convencional;;;Propios
 Camino Truncado;16;3,33;Fiesta;69433,6;17358,4;19/1/2026;lunes;enero;26/1/2026;4;5;Terminado;Convencional;;;Propios
 Camino Truncado;17;3,2;Arizul;107993,6;26998,4;9/3/2026;lunes;marzo;8/4/2026;11;15;;Convencional;;;Propios
@@ -25,7 +25,7 @@ Camino Truncado;20;1,5;Flame;58776;14694;2/2/2026;lunes;febrero;4/3/2026;6;10;;C
 Camino Truncado;21;2,6;Flame;119571,2;29892,8;6/2/2026;viernes;febrero;8/3/2026;6;11;;Convencional;;;Propios
 Camino Truncado;22;2,8;Fiesta;112608;28152;26/1/2026;lunes;enero;2/2/2026;5;6;;Convencional;;;Propios
 Camino Truncado;23;1,4;Flame;69465,6;17366,4;16/2/2026;lunes;febrero;18/3/2026;8;12;;Convencional;;;Propios
-Camino Truncado;51;3;Sultanina;75276;18819;12/1/2026;lunes;enero;19/1/2026;3;4;;Convencional;;;Propios
+Camino Truncado;51;3;Sultanina;75276;18819;12/1/2026;lunes;enero;19/1/2026;3;4;Terminado;Convencional;;;Propios
 Camino Truncado;52;2;Arizul;87964,8;21991,2;16/3/2026;lunes;marzo;15/4/2026;12;16;;Convencional;;;Propios
 Camino Truncado;53;2,2;Fiesta;94042;23510,5;26/1/2026;lunes;enero;2/2/2026;5;6;Terminado;Convencional;;;Propios
 Camino Truncado;54;1,1;Arizul;45208,8;11302,2;16/3/2026;lunes;marzo;15/4/2026;12;16;;Convencional;;;Propios
@@ -120,4 +120,5 @@ Roberto Antonio Estevez;1;1;Flame;50000;12500;2/2/2026;lunes;febrero;4/3/2026;6;
 Osvaldo Miranda;1;1;Flame;50000;12500;2/2/2026;lunes;febrero;4/3/2026;6;10;;Convencional;;;Terceros
 Lopez Aceituno;2;1;Flame;50000;12500;2/2/2026;lunes;febrero;4/3/2026;6;10;;Convencional;;;Terceros
 Guerrero;1;1;Flame;50000;12500;2/2/2026;lunes;febrero;4/3/2026;6;10;;Convencional;;;Terceros
+
 
